@@ -1,0 +1,57 @@
+[0.015s] Invoking command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/vehiclecontrol_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/vehiclecontrol_msgs -DCARMAKER_VER:STRING=14.1.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-14.1.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs
+[0.022s] Not searching for unused variables given on the command line.
+[0.070s] -- The C compiler identification is GNU 12.4.0
+[0.139s] -- The CXX compiler identification is GNU 12.4.0
+[0.157s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.268s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.269s] -- Detecting C compile features
+[0.270s] -- Detecting C compile features - done
+[0.280s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.422s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.422s] -- Detecting CXX compile features
+[0.423s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.576s] -- Found Python3: /home/ebrahim/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[0.784s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.040s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.045s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.301s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.301s]   execute_process(/home/ebrahim/anaconda3/bin/python3 -m rosidl_adapter
+[1.301s]   --package-name vehiclecontrol_msgs --arguments-file
+[1.301s]   /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/vehiclecontrol_msgs/rosidl_adapter__arguments__vehiclecontrol_msgs.json
+[1.301s]   --output-dir
+[1.301s]   /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/vehiclecontrol_msgs/rosidl_adapter/vehiclecontrol_msgs
+[1.301s]   --output-file
+[1.301s]   /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/vehiclecontrol_msgs/rosidl_adapter/vehiclecontrol_msgs.idls)
+[1.301s]   returned error code 1:
+[1.301s] 
+[1.301s]   Traceback (most recent call last):
+[1.302s] 
+[1.302s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[1.302s]     File "<frozen runpy>", line 88, in _run_code
+[1.302s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.302s]       sys.exit(main())
+[1.302s]                ~~~~^^
+[1.302s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.302s]       abs_idl_file = convert_to_idl(
+[1.302s]           pathlib.Path(basepath), args.package_name,
+[1.302s]           pathlib.Path(relative_path), output_dir)
+[1.302s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[1.302s]       from rosidl_adapter.msg import convert_msg_to_idl
+[1.302s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[1.303s]       from rosidl_adapter.resource import expand_template
+[1.303s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[1.303s]       import em
+[1.303s] 
+[1.303s]   ModuleNotFoundError: No module named 'em'
+[1.303s] 
+[1.303s] Call Stack (most recent call first):
+[1.303s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.303s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[1.303s] 
+[1.303s] [0m
+[1.304s] -- Configuring incomplete, errors occurred!

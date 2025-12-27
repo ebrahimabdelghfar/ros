@@ -1,0 +1,24 @@
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:[m[K In member function ‘[01m[Kvoid cm_ros::CMNodeHelloCM::tireSteeringFillMsg(hellocm_msgs::msg::TireSteering&)[m[K’:
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:468:30:[m[K [01;31m[Kerror: [m[K‘[01m[KtCar[m[K’ {aka ‘[01m[Kstruct tCar[m[K’} has no member named ‘[01m[KCFL[m[K’
+  468 |   msg.front_left_angle = Car.[01;31m[KCFL[m[K.rz;
+      |                              [01;31m[K^~~[m[K
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:469:31:[m[K [01;31m[Kerror: [m[K‘[01m[KtCar[m[K’ {aka ‘[01m[Kstruct tCar[m[K’} has no member named ‘[01m[KCFR[m[K’
+  469 |   msg.front_right_angle = Car.[01;31m[KCFR[m[K.rz;
+      |                               [01;31m[K^~~[m[K
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:472:25:[m[K [01;31m[Kerror: [m[K‘[01m[KtCar[m[K’ {aka ‘[01m[Kstruct tCar[m[K’} has no member named ‘[01m[KCFL[m[K’
+  472 |   msg.tire_angle = (Car.[01;31m[KCFL[m[K.rz + Car.CFR.rz) / 2.0;
+      |                         [01;31m[K^~~[m[K
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:472:38:[m[K [01;31m[Kerror: [m[K‘[01m[KtCar[m[K’ {aka ‘[01m[Kstruct tCar[m[K’} has no member named ‘[01m[KCFR[m[K’
+  472 |   msg.tire_angle = (Car.CFL.rz + Car.[01;31m[KCFR[m[K.rz) / 2.0;
+      |                                      [01;31m[K^~~[m[K
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:[m[K In member function ‘[01m[Kvirtual int cm_ros::CMNodeHelloCM::userTestrunStartAtBegin()[m[K’:
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:831:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  831 |             [01;35m[Ksystem(sbuf)[m[K;
+      |             [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:[m[K In member function ‘[01m[Kvirtual int cm_ros::CMNodeHelloCM::userTestrunEnd()[m[K’:
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:894:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  894 |     [01;35m[Ksystem("pkill -f carmaker_rsds_client_node > /dev/null 2>&1")[m[K;
+      |     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/CMNode_ROS2_HelloCM.dir/build.make:76: CMakeFiles/CMNode_ROS2_HelloCM.dir/src/CMNode_ROS2_HelloCM.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/CMNode_ROS2_HelloCM.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,120 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hellocm_msgs/msg/TireForces.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module hellocm_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Tire Forces and Slip Data Message (Pacejka Tire Model Ground Truth)" "\n"
+      "Provides actual tire forces and slip data from CarMaker Pacejka tire model simulation")
+    struct TireForces {
+      @verbatim (language="comment", text=
+        "Header with timestamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Tire identification (0=FL, 1=FR, 2=RL, 3=RR)")
+      uint8 tire_index;
+
+      @verbatim (language="comment", text=
+        "Contact Point Forces in wheel coordinate system (FrW) [N]" "\n"
+        "FrW: x = longitudinal, y = lateral, z = normal" "\n"
+        "Longitudinal force (braking/traction) [N]")
+      double fx;
+
+      @verbatim (language="comment", text=
+        "Lateral force (cornering)")
+      @unit (value="N")
+      double fy;
+
+      @verbatim (language="comment", text=
+        "Normal force (vertical load)")
+      @unit (value="N")
+      double fz;
+
+      @verbatim (language="comment", text=
+        "Contact Point Torques in wheel coordinate system (FrW) [Nm]" "\n"
+        "Overturning moment [Nm]")
+      double mx;
+
+      @verbatim (language="comment", text=
+        "Rolling resistance moment")
+      @unit (value="Nm")
+      double my;
+
+      @verbatim (language="comment", text=
+        "Self-aligning torque")
+      @unit (value="Nm")
+      double mz;
+
+      @verbatim (language="comment", text=
+        "Tire Slip Parameters (Pacejka Model Inputs)" "\n"
+        "Slip angle (alpha) [ISO 8855 7.1.2] [rad]")
+      double slip_angle;
+
+      @verbatim (language="comment", text=
+        "Longitudinal slip (kappa) [ISO 8855 7.4.6] [-]")
+      double long_slip;
+
+      @verbatim (language="comment", text=
+        "Turn slip")
+      @unit (value="1/m")
+      double turn_slip;
+
+      @verbatim (language="comment", text=
+        "Kinematic Parameters" "\n"
+        "Camber/inclination angle")
+      @unit (value="rad")
+      double inclination_angle;
+
+      @verbatim (language="comment", text=
+        "Effective belt radius")
+      @unit (value="m")
+      double effective_radius;
+
+      @verbatim (language="comment", text=
+        "Rotational rubber velocity at contact point")
+      @unit (value="m/s")
+      double belt_velocity;
+
+      @verbatim (language="comment", text=
+        "Contact Point Information" "\n"
+        "Contact point position X in global frame")
+      @unit (value="m")
+      double contact_point_x;
+
+      @verbatim (language="comment", text=
+        "Contact point position Y in global frame")
+      @unit (value="m")
+      double contact_point_y;
+
+      @verbatim (language="comment", text=
+        "Contact point position Z in global frame")
+      @unit (value="m")
+      double contact_point_z;
+
+      @verbatim (language="comment", text=
+        "Road Properties" "\n"
+        "Road friction coefficient")
+      @unit (value="-")
+      double mu_road;
+
+      @verbatim (language="comment", text=
+        "Indicates if tire is on the road")
+      boolean on_road;
+
+      @verbatim (language="comment", text=
+        "Additional Tire State" "\n"
+        "Rim angular velocity")
+      @unit (value="rad/s")
+      double rim_rotation_speed;
+
+      @verbatim (language="comment", text=
+        "Tire rotational speed")
+      @unit (value="rad/s")
+      double angular_velocity;
+    };
+  };
+};

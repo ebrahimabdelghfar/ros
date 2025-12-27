@@ -1,0 +1,13 @@
+ackermann_to_vehiclecontrol_node:
+  ros__parameters:
+    # Input topic - receives AckermannDriveStamped messages
+    input_topic: "/ackerman"
+    
+    # Output topic - publishes VehicleControl messages
+    output_topic: "/carmaker/VehicleControl"
+    
+    # Maximum speed in m/s (used for normalizing gas/brake pedal values 0-1)
+    max_speed: 20.0
+    
+    # Maximum steering angle in radians (used for clamping input)
+    max_steering_angle: 30.0

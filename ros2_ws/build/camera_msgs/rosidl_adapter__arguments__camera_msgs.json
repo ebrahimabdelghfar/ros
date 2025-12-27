@@ -1,0 +1,7 @@
+{
+  "package_name": "camera_msgs",
+  "non_idl_tuples": [
+    "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/camera_msgs:msg/CameraDetection.msg",
+    "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/camera_msgs:msg/CameraDetectionArray.msg"
+  ]
+}

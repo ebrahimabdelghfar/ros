@@ -1,0 +1,8 @@
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:[m[K In member function ‘[01m[Kvoid cm_ros::CMNodeHelloCM::odomFillMsg(nav_msgs::msg::Odometry&)[m[K’:
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:451:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle[m[K’ was not declared in this scope; did you mean ‘[01m[KVehicle[m[K’?
+  451 |   msg.twist.twist.linear.x = [01;31m[Kvehicle[m[K.v;  // Velocity X in world frame
+      |                              [01;31m[K^~~~~~~[m[K
+      |                              [32m[KVehicle[m[K
+gmake[3]: *** [CMakeFiles/CMNode_ROS2_HelloCM.dir/build.make:76: CMakeFiles/CMNode_ROS2_HelloCM.dir/src/CMNode_ROS2_HelloCM.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:137: CMakeFiles/CMNode_ROS2_HelloCM.dir/all] Error 2
+gmake[1]: *** [Makefile:146: all] Error 2

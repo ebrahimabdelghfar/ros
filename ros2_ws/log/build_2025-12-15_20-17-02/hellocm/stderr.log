@@ -1,0 +1,26 @@
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm/src/ROS2_HelloCM.cpp:[m[K In member function ‘[01m[Kvoid HelloCM::handle_service(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<hellocm_msgs::srv::Init_Request_<std::allocator<void> > >, std::shared_ptr<hellocm_msgs::srv::Init_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm/src/ROS2_HelloCM.cpp:201:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHelloCM::create_timer(HelloCM*, rclcpp::Clock::SharedPtr, std::chrono::milliseconds, std::_Bind_helper<false, void (HelloCM::*)(), HelloCM*>::type)[m[K’
+  201 |       timer_ = [01;31m[Kcreate_timer(this, this->get_clock(),[m[K
+      |                [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  202 | [01;31m[K                            std::chrono::milliseconds(cycle_time_),[m[K
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K                            std::bind(&HelloCM::on_timer, this))[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm/src/ROS2_HelloCM.cpp:19[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:255:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::GenericTimer<CallbackT>::SharedPtr rclcpp::Node::create_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  255 |   [01;36m[Kcreate_timer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:255:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm/src/ROS2_HelloCM.cpp:201:28:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[KHelloCM*[m[K’
+  201 |       timer_ = [01;36m[Kcreate_timer(this, this->get_clock(),[m[K
+      |                [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  202 | [01;36m[K                            std::chrono::milliseconds(cycle_time_),[m[K
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;36m[K                            std::bind(&HelloCM::on_timer, this))[m[K;
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[3]: *** [CMakeFiles/hellocm.dir/build.make:76: CMakeFiles/hellocm.dir/src/ROS2_HelloCM.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hellocm.dir/all] Error 2
+gmake[1]: *** [Makefile:146: all] Error 2

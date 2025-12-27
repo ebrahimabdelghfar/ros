@@ -1,0 +1,46 @@
+[0.033s] Invoking command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/ackermann_to_vehiclecontrol': AMENT_PREFIX_PATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/ackermann_to_vehiclecontrol -DCARMAKER_VER:STRING=14.1.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-14.1.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/ackermann_to_vehiclecontrol
+[0.054s] Not searching for unused variables given on the command line.
+[0.153s] -- The C compiler identification is GNU 12.4.0
+[0.340s] -- The CXX compiler identification is GNU 12.4.0
+[0.391s] -- Detecting C compiler ABI info
+[0.686s] -- Detecting C compiler ABI info - done
+[0.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.742s] -- Detecting C compile features
+[0.743s] -- Detecting C compile features - done
+[0.760s] -- Detecting CXX compiler ABI info
+[1.164s] -- Detecting CXX compiler ABI info - done
+[1.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.225s] -- Detecting CXX compile features
+[1.229s] -- Detecting CXX compile features - done
+[1.241s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.129s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.359s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.427s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.450s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.618s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.624s] -- Found rmw_zenoh_cpp: 0.2.9 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[2.625s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[2.729s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/jazzy/share/ackermann_msgs/cmake)
+[2.770s] -- Found vehiclecontrol_msgs: 1.0.0 (/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/share/vehiclecontrol_msgs/cmake)
+[2.813s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.997s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.997s] -- Configured cppcheck include dirs: 
+[2.997s] -- Configured cppcheck exclude dirs and/or files: 
+[2.998s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.998s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.999s] -- Added test 'lint_cmake' to check CMake code style
+[3.000s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.002s] -- Added test 'uncrustify' to check C / C++ code style
+[3.002s] -- Configured uncrustify additional arguments: 
+[3.003s] -- Added test 'xmllint' to check XML markup files
+[3.005s] -- Configuring done (3.0s)
+[3.020s] -- Generating done (0.0s)
+[3.025s] -- Build files have been written to: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/ackermann_to_vehiclecontrol
+[3.037s] Invoked command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/ackermann_to_vehiclecontrol' returned '0': AMENT_PREFIX_PATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/ackermann_to_vehiclecontrol -DCARMAKER_VER:STRING=14.1.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-14.1.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/ackermann_to_vehiclecontrol
+[3.038s] Invoking command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/ackermann_to_vehiclecontrol': AMENT_PREFIX_PATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/ackermann_to_vehiclecontrol -- -j12 -l12
+[3.093s] [ 50%] [32mBuilding CXX object CMakeFiles/ackermann_to_vehiclecontrol_node.dir/src/ackermann_to_vehiclecontrol_node.cpp.o[0m
+[8.292s] gmake[3]: *** [CMakeFiles/ackermann_to_vehiclecontrol_node.dir/build.make:76: CMakeFiles/ackermann_to_vehiclecontrol_node.dir/src/ackermann_to_vehiclecontrol_node.cpp.o] Interrupt
+[8.292s] gmake[2]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ackermann_to_vehiclecontrol_node.dir/all] Interrupt
+[8.292s] gmake[1]: *** [Makefile:146: all] Interrupt

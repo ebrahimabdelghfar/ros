@@ -1,0 +1,11 @@
+{
+  "package_name": "cmrosutils",
+  "output_dir": "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/cmrosutils/rosidl_generator_type_description/cmrosutils",
+  "idl_tuples": [
+    "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/cmrosutils/rosidl_adapter/cmrosutils:srv/CMRemoteControl.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

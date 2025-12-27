@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hellocm_msgs/msg/TireSteering.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module hellocm_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Tire Steering Angle Message" "\n"
+      "Provides actual tire/wheel steering angles from CarMaker simulation")
+    struct TireSteering {
+      @verbatim (language="comment", text=
+        "Header with timestamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Mean front tire steering angle" "\n"
+        "This represents the actual wheel steering angle, not the pinion angle" "\n"
+        "Positive = left turn, Negative = right turn")
+      @unit (value="rad")
+      double tire_angle;
+
+      @verbatim (language="comment", text=
+        "Individual wheel steering angles" "\n"
+        "Front left wheel steering angle")
+      @unit (value="rad")
+      double front_left_angle;
+
+      @verbatim (language="comment", text=
+        "Front right wheel steering angle")
+      double front_right_angle;
+
+      @verbatim (language="comment", text=
+        "Steering pinion angle for reference" "\n"
+        "This is the angle at the steering pinion (input to steering rack)")
+      @unit (value="rad")
+      double pinion_angle;
+    };
+  };
+};

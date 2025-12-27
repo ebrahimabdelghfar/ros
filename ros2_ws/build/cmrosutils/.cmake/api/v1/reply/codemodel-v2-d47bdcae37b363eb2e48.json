@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1645fb7b0fa06795391a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "cmrosutils__py",
+					"jsonFile" : "directory-cmrosutils__py-a1f72fd5ddd5d267925e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/cmrosutils/cmrosutils__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cmrosutils",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cmrosutils_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cmrosutils_egg-1188c768eac1623466d8.json",
+					"name" : "ament_cmake_python_build_cmrosutils_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_cmrosutils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_cmrosutils-cd4199a72ca460627c42.json",
+					"name" : "ament_cmake_python_copy_cmrosutils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosif::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosif-d6b85933f4e10dd7a17d.json",
+					"name" : "cmrosif",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils-aab325332aedce793515.json",
+					"name" : "cmrosutils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils__cpp-fb0112726e8e07ee0e4d.json",
+					"name" : "cmrosutils__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cmrosutils__py::@20a95a3356639142319e",
+					"jsonFile" : "target-cmrosutils__py-a1941dfc951b20bfb7e1.json",
+					"name" : "cmrosutils__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils__rosidl_generator_c-6d1363a5cd9c50611b43.json",
+					"name" : "cmrosutils__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils__rosidl_generator_py-6612255c4e712009ac03.json",
+					"name" : "cmrosutils__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils__rosidl_generator_type_description-964b3e00aed07dbaa3b3.json",
+					"name" : "cmrosutils__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils__rosidl_typesupport_c-ccfb39e4f6ca3283eb73.json",
+					"name" : "cmrosutils__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils__rosidl_typesupport_cpp-a766458a5cc7865850fd.json",
+					"name" : "cmrosutils__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils__rosidl_typesupport_fastrtps_c-7be8b7a85c2e67a1c9d7.json",
+					"name" : "cmrosutils__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils__rosidl_typesupport_fastrtps_cpp-7d5ded15f6517b7ee5d3.json",
+					"name" : "cmrosutils__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils__rosidl_typesupport_introspection_c-5407e4672b53da6b339c.json",
+					"name" : "cmrosutils__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils__rosidl_typesupport_introspection_cpp-8077535662f2ad929838.json",
+					"name" : "cmrosutils__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils_s__rosidl_typesupport_c-3baa3ec97cf7cf62f34f.json",
+					"name" : "cmrosutils_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils_s__rosidl_typesupport_fastrtps_c-c48d7ed21ba34aa8d55c.json",
+					"name" : "cmrosutils_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils_s__rosidl_typesupport_introspection_c-d3336eacaead9510594d.json",
+					"name" : "cmrosutils_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmrosutils_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmrosutils_uninstall-666be3c98307a3fb5dc5.json",
+					"name" : "cmrosutils_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-10c67a14056ae419c6f5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/cmrosutils",
+		"source" : "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/cmrosutils"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

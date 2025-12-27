@@ -1,0 +1,6 @@
+{
+  "package_name": "vehiclecontrol_msgs",
+  "non_idl_tuples": [
+    "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/vehiclecontrol_msgs:msg/VehicleControl.msg"
+  ]
+}

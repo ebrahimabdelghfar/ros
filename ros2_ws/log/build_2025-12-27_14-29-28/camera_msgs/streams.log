@@ -1,0 +1,267 @@
+[0.023s] Invoking command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/camera_msgs -DCARMAKER_VER:STRING=14.1.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-14.1.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs
+[0.034s] Not searching for unused variables given on the command line.
+[0.083s] -- The C compiler identification is GNU 12.4.0
+[0.145s] -- The CXX compiler identification is GNU 12.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.236s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.256s] -- Detecting CXX compiler ABI info
+[0.355s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.365s] -- Detecting CXX compile features
+[0.365s] -- Detecting CXX compile features - done
+[0.369s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.687s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.839s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.977s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.982s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.087s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.092s] -- Found rmw_zenoh_cpp: 0.2.9 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)
+[1.093s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[1.204s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.384s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.583s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.871s] -- Found PythonExtra: /usr/bin/python3  
+[5.914s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.997s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.004s] -- Configuring done (6.0s)
+[6.051s] -- Generating done (0.0s)
+[6.069s] -- Build files have been written to: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs
+[6.082s] Invoked command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/camera_msgs -DCARMAKER_VER:STRING=14.1.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-14.1.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs
+[6.083s] Invoking command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs -- -j12 -l12
+[6.169s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.180s] [  2%] Built target ament_cmake_python_copy_camera_msgs
+[6.578s] running egg_info
+[6.580s] creating camera_msgs.egg-info
+[6.631s] [  2%] Built target camera_msgs__rosidl_generator_type_description
+[6.649s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.917s] writing camera_msgs.egg-info/PKG-INFO
+[6.918s] writing dependency_links to camera_msgs.egg-info/dependency_links.txt
+[6.919s] writing top-level names to camera_msgs.egg-info/top_level.txt
+[6.920s] writing manifest file 'camera_msgs.egg-info/SOURCES.txt'
+[6.948s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.090s] reading manifest file 'camera_msgs.egg-info/SOURCES.txt'
+[7.091s] writing manifest file 'camera_msgs.egg-info/SOURCES.txt'
+[7.233s] [  6%] Built target ament_cmake_python_build_camera_msgs_egg
+[8.256s] [ 11%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/camera_msgs/msg/detail/camera_detection_array__description.c.o[0m
+[8.258s] [ 11%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/camera_msgs/msg/detail/camera_detection__description.c.o[0m
+[8.269s] [ 13%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/camera_msgs/msg/detail/camera_detection__type_support.c.o[0m
+[8.274s] [ 15%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/camera_msgs/msg/detail/camera_detection__functions.c.o[0m
+[8.281s] [ 18%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/camera_msgs/msg/detail/camera_detection_array__functions.c.o[0m
+[8.325s] [ 20%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/camera_msgs/msg/detail/camera_detection_array__type_support.c.o[0m
+[8.392s] [ 22%] [32m[1mLinking C shared library libcamera_msgs__rosidl_generator_c.so[0m
+[8.524s] [ 22%] Built target camera_msgs__rosidl_generator_c
+[8.582s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.584s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.585s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.646s] [ 29%] Built target camera_msgs__cpp
+[8.696s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.697s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.698s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.658s] [ 38%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_msgs/msg/detail/dds_fastrtps/camera_detection_array__type_support.cpp.o[0m
+[9.671s] [ 40%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/camera_msgs/msg/detail/dds_fastrtps/camera_detection__type_support.cpp.o[0m
+[9.911s] [ 43%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_msgs/msg/detail/camera_detection__type_support.c.o[0m
+[9.915s] [ 45%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/camera_msgs/msg/detail/camera_detection_array__type_support.c.o[0m
+[10.054s] [ 47%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_msgs/msg/camera_detection__type_support.cpp.o[0m
+[10.056s] [ 50%] [32m[1mLinking C shared library libcamera_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.058s] [ 52%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/camera_msgs/msg/camera_detection_array__type_support.cpp.o[0m
+[10.148s] [ 54%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_msgs/msg/detail/camera_detection__type_support_c.cpp.o[0m
+[10.168s] [ 56%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/camera_msgs/msg/detail/camera_detection_array__type_support_c.cpp.o[0m
+[10.176s] [ 56%] Built target camera_msgs__rosidl_typesupport_introspection_c
+[10.302s] [ 61%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_msgs/msg/detail/camera_detection__type_support.cpp.o[0m
+[10.306s] [ 61%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/camera_msgs/msg/detail/camera_detection_array__type_support.cpp.o[0m
+[10.331s] [ 63%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_msgs/msg/camera_detection_array__type_support.cpp.o[0m
+[10.337s] [ 65%] [32mBuilding CXX object CMakeFiles/camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/camera_msgs/msg/camera_detection__type_support.cpp.o[0m
+[10.537s] [ 68%] [32m[1mLinking CXX shared library libcamera_msgs__rosidl_typesupport_c.so[0m
+[10.675s] [ 68%] Built target camera_msgs__rosidl_typesupport_c
+[11.083s] [ 70%] [32m[1mLinking CXX shared library libcamera_msgs__rosidl_typesupport_cpp.so[0m
+[11.201s] [ 70%] Built target camera_msgs__rosidl_typesupport_cpp
+[11.306s] [ 72%] [32m[1mLinking CXX shared library libcamera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.492s] [ 72%] Built target camera_msgs__rosidl_typesupport_introspection_cpp
+[11.538s] [ 75%] [32m[1mLinking CXX shared library libcamera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.671s] [ 75%] Built target camera_msgs__rosidl_typesupport_fastrtps_cpp
+[11.691s] [ 77%] [32m[1mLinking CXX shared library libcamera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.753s] [ 77%] Built target camera_msgs__rosidl_typesupport_fastrtps_c
+[11.777s] [ 77%] Built target camera_msgs
+[11.800s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.785s] [ 79%] Built target camera_msgs__py
+[12.820s] [ 84%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/camera_msgs/msg/_camera_detection_array_s.c.o[0m
+[12.821s] [ 84%] [32mBuilding C object CMakeFiles/camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/camera_msgs/msg/_camera_detection_s.c.o[0m
+[13.206s] [ 86%] [32m[1mLinking C shared library libcamera_msgs__rosidl_generator_py.so[0m
+[13.369s] [ 86%] Built target camera_msgs__rosidl_generator_py
+[13.413s] [ 88%] [32mBuilding C object CMakeFiles/camera_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.413s] [ 90%] [32mBuilding C object CMakeFiles/camera_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.431s] [ 93%] [32mBuilding C object CMakeFiles/camera_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[13.838s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/camera_msgs/camera_msgs_s__rosidl_typesupport_c.so[0m
+[13.871s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/camera_msgs/camera_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[13.949s] [ 97%] Built target camera_msgs_s__rosidl_typesupport_c
+[13.987s] [ 97%] Built target camera_msgs_s__rosidl_typesupport_introspection_c
+[14.766s] [100%] [32m[1mLinking C shared module rosidl_generator_py/camera_msgs/camera_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[15.117s] [100%] Built target camera_msgs_s__rosidl_typesupport_fastrtps_c
+[15.206s] Invoked command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs -- -j12 -l12
+[15.209s] Invoking command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs
+[15.582s] -- Install configuration: ""
+[15.582s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/ament_index/resource_index/rosidl_interfaces/camera_msgs
+[15.582s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/msg/CameraDetection.json
+[15.582s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/msg/CameraDetectionArray.json
+[15.582s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs
+[15.589s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg
+[15.589s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail
+[15.589s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__functions.c
+[15.594s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__struct.h
+[15.597s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__functions.c
+[15.602s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__functions.h
+[15.606s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__functions.h
+[15.610s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__description.c
+[15.613s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__description.c
+[15.619s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__type_support.h
+[15.626s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__type_support.h
+[15.629s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__type_support.c
+[16.163s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__type_support.c
+[16.317s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__struct.h
+[16.318s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/camera_detection.h
+[16.318s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.318s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/camera_detection_array.h
+[16.318s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/environment/library_path.sh
+[16.318s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/environment/library_path.dsv
+[16.318s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_generator_c.so
+[16.985s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_generator_c.so" to ""
+[16.985s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs
+[16.986s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg
+[16.986s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail
+[16.986s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__rosidl_typesupport_fastrtps_c.h
+[16.986s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__rosidl_typesupport_fastrtps_c.h
+[16.986s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.986s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_fastrtps_c.so
+[16.986s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[16.987s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs
+[16.987s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg
+[16.987s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail
+[16.987s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__rosidl_typesupport_introspection_c.h
+[16.987s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__rosidl_typesupport_introspection_c.h
+[16.987s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__type_support.c
+[16.987s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__type_support.c
+[16.987s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.988s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_introspection_c.so
+[16.988s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.988s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_c.so
+[16.988s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_c.so" to ""
+[16.988s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs
+[16.988s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg
+[16.988s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail
+[16.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__builder.hpp
+[16.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__struct.hpp
+[16.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__traits.hpp
+[16.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__struct.hpp
+[16.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__type_support.hpp
+[16.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__type_support.hpp
+[16.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__traits.hpp
+[16.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__builder.hpp
+[16.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/camera_detection.hpp
+[16.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/camera_detection_array.hpp
+[16.994s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs
+[16.994s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg
+[16.994s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail
+[16.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[16.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/dds_fastrtps
+[16.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[16.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[16.995s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.995s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs
+[16.995s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg
+[16.995s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail
+[16.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__type_support.cpp
+[16.999s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection__rosidl_typesupport_introspection_cpp.hpp
+[16.999s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[16.999s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/include/camera_msgs/camera_msgs/msg/detail/camera_detection_array__type_support.cpp
+[16.999s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_introspection_cpp.so
+[17.001s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[17.001s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_cpp.so
+[17.001s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_typesupport_cpp.so" to ""
+[17.005s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/environment/pythonpath.sh
+[17.005s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/environment/pythonpath.dsv
+[17.005s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs-1.0.0-py3.12.egg-info
+[17.005s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs-1.0.0-py3.12.egg-info/SOURCES.txt
+[17.005s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs-1.0.0-py3.12.egg-info/PKG-INFO
+[17.006s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs-1.0.0-py3.12.egg-info/top_level.txt
+[17.006s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs-1.0.0-py3.12.egg-info/dependency_links.txt
+[17.006s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs
+[17.006s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_c.so
+[17.159s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_fastrtps_c.so
+[17.160s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.161s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_c.c
+[17.161s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_introspection_c.so
+[17.162s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[17.162s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/msg
+[17.163s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/msg/_camera_detection_array_s.c
+[17.164s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/msg/_camera_detection.py
+[17.164s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/msg/_camera_detection_s.c
+[17.165s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/msg/_camera_detection_array.py
+[17.165s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/msg/__init__.py
+[17.166s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/__init__.py
+[17.321s] Listing '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs'...
+[17.321s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/__init__.py'...
+[17.322s] Listing '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/msg'...
+[17.322s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/msg/__init__.py'...
+[17.322s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/msg/_camera_detection.py'...
+[17.322s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/msg/_camera_detection_array.py'...
+[17.411s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_fastrtps_c.so
+[17.413s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[17.413s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_introspection_c.so
+[17.417s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[17.417s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_c.so
+[17.417s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages/camera_msgs/camera_msgs_s__rosidl_typesupport_c.so" to ""
+[17.418s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_generator_py.so
+[17.418s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/libcamera_msgs__rosidl_generator_py.so" to ""
+[17.418s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/msg/CameraDetection.idl
+[17.418s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/msg/CameraDetectionArray.idl
+[17.418s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/msg/CameraDetection.msg
+[17.420s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/msg/CameraDetectionArray.msg
+[17.421s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/ament_index/resource_index/package_run_dependencies/camera_msgs
+[17.424s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/ament_index/resource_index/parent_prefix_path/camera_msgs
+[17.424s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/environment/ament_prefix_path.sh
+[17.424s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/environment/ament_prefix_path.dsv
+[17.424s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/environment/path.sh
+[17.425s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/environment/path.dsv
+[17.425s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/local_setup.bash
+[17.425s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/local_setup.sh
+[17.425s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/local_setup.zsh
+[17.425s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/local_setup.dsv
+[17.426s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/package.dsv
+[17.426s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/ament_index/resource_index/packages/camera_msgs
+[17.426s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_generator_cExport.cmake
+[17.426s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[17.426s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[17.430s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.430s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[17.430s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.430s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_cExport.cmake
+[17.431s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[17.431s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_generator_cppExport.cmake
+[17.431s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.431s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.431s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[17.431s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.432s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_cppExport.cmake
+[17.432s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[17.432s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_generator_pyExport.cmake
+[17.432s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/export_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[17.432s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/rosidl_cmake-extras.cmake
+[17.432s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.436s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.436s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[17.436s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[17.436s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.436s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.437s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/camera_msgsConfig.cmake
+[17.437s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake/camera_msgsConfig-version.cmake
+[17.437s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/package.xml
+[17.442s] Invoked command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/camera_msgs

@@ -1,0 +1,16 @@
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:[m[K In member function ‘[01m[Kvoid cm_ros::CMNodeHelloCM::odomFillMsg(nav_msgs::msg::Odometry&)[m[K’:
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:451:39:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[int][m[K’ for array subscript
+  451 | inear.x = Vehicle.v[01;31m[K[[m[K0];  // Velocity X in world frame
+      |                    [01;31m[K^[m[K
+
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:452:39:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[int][m[K’ for array subscript
+  452 | inear.y = Vehicle.v[01;31m[K[[m[K1];  // Velocity Y in world frame
+      |                    [01;31m[K^[m[K
+
+[01m[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:453:39:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kdouble[int][m[K’ for array subscript
+  453 | inear.z = Vehicle.v[01;31m[K[[m[K2];  // Velocity Z in world frame
+      |                    [01;31m[K^[m[K
+
+gmake[3]: *** [CMakeFiles/CMNode_ROS2_HelloCM.dir/build.make:76: CMakeFiles/CMNode_ROS2_HelloCM.dir/src/CMNode_ROS2_HelloCM.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:137: CMakeFiles/CMNode_ROS2_HelloCM.dir/all] Error 2
+gmake[1]: *** [Makefile:146: all] Error 2

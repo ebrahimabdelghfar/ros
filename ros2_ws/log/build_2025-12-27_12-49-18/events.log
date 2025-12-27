@@ -1,0 +1,539 @@
+[0.000000] (-) TimerEvent: {}
+[0.000232] (-) JobUnselected: {'identifier': 'ackermann_to_vehiclecontrol'}
+[0.000475] (-) JobUnselected: {'identifier': 'camera_msgs'}
+[0.000505] (-) JobUnselected: {'identifier': 'carmaker_rsds_client'}
+[0.000524] (-) JobUnselected: {'identifier': 'cmrosutils'}
+[0.000558] (-) JobUnselected: {'identifier': 'hellocm'}
+[0.000573] (-) JobUnselected: {'identifier': 'hellocm_msgs'}
+[0.000586] (-) JobUnselected: {'identifier': 'vehiclecontrol_msgs'}
+[0.000607] (hellocm_cmnode) JobQueued: {'identifier': 'hellocm_cmnode', 'dependencies': OrderedDict({'camera_msgs': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs', 'cmrosutils': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils', 'hellocm_msgs': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs', 'vehiclecontrol_msgs': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs'})}
+[0.000899] (hellocm_cmnode) JobStarted: {'identifier': 'hellocm_cmnode'}
+[0.021727] (hellocm_cmnode) JobProgress: {'identifier': 'hellocm_cmnode', 'progress': 'cmake'}
+[0.022532] (hellocm_cmnode) Command: {'cmd': ['/usr/bin/cmake', '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode'], 'cwd': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_cmnode', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ebrahim', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/share/gz:/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'STM32CubeMX_PATH': '/home/ebrahim/STM32CubeMX', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/lib:/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/ebrahim', 'CHROME_DESKTOP': 'antigravity.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/ebrahim/formula-carmaker-fs_2025', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '8786', 'SYSTEMD_EXEC_PID': '10272', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'ORB_SLAM_ROOT_DIR': '/home/ebrahim/tractor_agri_simulator/ORB-SLAM3', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'IPGHOME': '/opt/ipg', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '28005', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ebrahim', 'JOURNAL_STREAM': '9:62223', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ebrahim', 'STM32_PRG_PATH': '/home/ebrahim/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/ebrahim/.pixi/bin:/usr/bin:/home/ebrahim/anaconda3/condabin:/home/ebrahim/.pixi/bin:/usr/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ebrahim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ipg/bin:/opt/ipg/bin', 'SESSION_MANAGER': 'local/ebrahim-GS65-Stealth-9SG:@/tmp/.ICE-unix/9829,unix/ebrahim-GS65-Stealth-9SG:/tmp/.ICE-unix/9829', 'INVOCATION_ID': 'fea847610c4a41829f264cbb23b42f01', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e8206c796a.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/ackermann_to_vehiclecontrol:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/carmaker_rsds_client:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/ebrahim/anaconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cf400fae-bc53-48ef-86f4-9369c824f0a7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'DOCKER_HOST': 'unix:///run/user/1000/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_cmnode', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/ebrahim/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib/python3.12/site-packages:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils/lib/python3.12/site-packages:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'SANDBOX_LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CMAKE_PREFIX_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/ackermann_to_vehiclecontrol:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/carmaker_rsds_client:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.038855] (hellocm_cmnode) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099602] (-) TimerEvent: {}
+[0.199936] (-) TimerEvent: {}
+[0.300347] (-) TimerEvent: {}
+[0.400626] (-) TimerEvent: {}
+[0.500837] (-) TimerEvent: {}
+[0.601083] (-) TimerEvent: {}
+[0.661792] (hellocm_cmnode) StdoutLine: {'line': b'-- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)\n'}
+[0.663818] (hellocm_cmnode) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.701202] (-) TimerEvent: {}
+[0.712014] (hellocm_cmnode) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.724076] (hellocm_cmnode) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.741451] (hellocm_cmnode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.763835] (hellocm_cmnode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801315] (-) TimerEvent: {}
+[0.857125] (hellocm_cmnode) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.859153] (hellocm_cmnode) StdoutLine: {'line': b'-- Found rmw_zenoh_cpp: 0.2.9 (/opt/ros/jazzy/share/rmw_zenoh_cpp/cmake)\n'}
+[0.860475] (hellocm_cmnode) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_zenoh_cpp' as default\n"}
+[0.901412] (-) TimerEvent: {}
+[0.977631] (hellocm_cmnode) StdoutLine: {'line': b'-- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[0.978074] (hellocm_cmnode) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.001508] (-) TimerEvent: {}
+[1.001941] (hellocm_cmnode) StdoutLine: {'line': b'-- Found cmrosutils: 0.1.0 (/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils/share/cmrosutils/cmake)\n'}
+[1.032040] (hellocm_cmnode) StdoutLine: {'line': b'-- Found hellocm_msgs: 0.1.0 (/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake)\n'}
+[1.063756] (hellocm_cmnode) StdoutLine: {'line': b'-- Found vehiclecontrol_msgs: 1.0.0 (/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/share/vehiclecontrol_msgs/cmake)\n'}
+[1.088458] (hellocm_cmnode) StdoutLine: {'line': b'-- Found camera_msgs: 1.0.0 (/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/share/camera_msgs/cmake)\n'}
+[1.102633] (-) TimerEvent: {}
+[1.123838] (hellocm_cmnode) StdoutLine: {'line': b'-- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.170922] (hellocm_cmnode) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.202705] (-) TimerEvent: {}
+[1.302982] (-) TimerEvent: {}
+[1.349753] (hellocm_cmnode) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.355354] (hellocm_cmnode) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.357492] (hellocm_cmnode) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.360822] (hellocm_cmnode) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[1.403082] (-) TimerEvent: {}
+[1.437826] (hellocm_cmnode) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.487656] (hellocm_cmnode) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.503169] (-) TimerEvent: {}
+[1.603430] (-) TimerEvent: {}
+[1.619263] (hellocm_cmnode) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.620498] (hellocm_cmnode) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.620694] (hellocm_cmnode) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.620774] (hellocm_cmnode) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.621310] (hellocm_cmnode) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.621384] (hellocm_cmnode) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.621663] (hellocm_cmnode) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.621734] (hellocm_cmnode) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.622042] (hellocm_cmnode) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.622362] (hellocm_cmnode) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.622928] (hellocm_cmnode) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.623003] (hellocm_cmnode) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.623228] (hellocm_cmnode) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.624070] (hellocm_cmnode) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[1.648353] (hellocm_cmnode) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.655087] (hellocm_cmnode) StdoutLine: {'line': b'-- Build files have been written to: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_cmnode\n'}
+[1.666418] (hellocm_cmnode) CommandEnded: {'returncode': 0}
+[1.667673] (hellocm_cmnode) JobProgress: {'identifier': 'hellocm_cmnode', 'progress': 'build'}
+[1.667696] (hellocm_cmnode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_cmnode', '--', '-j12', '-l12'], 'cwd': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_cmnode', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ebrahim', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/share/gz:/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'STM32CubeMX_PATH': '/home/ebrahim/STM32CubeMX', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/lib:/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/ebrahim', 'CHROME_DESKTOP': 'antigravity.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/ebrahim/formula-carmaker-fs_2025', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '8786', 'SYSTEMD_EXEC_PID': '10272', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'ORB_SLAM_ROOT_DIR': '/home/ebrahim/tractor_agri_simulator/ORB-SLAM3', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'IPGHOME': '/opt/ipg', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '28005', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ebrahim', 'JOURNAL_STREAM': '9:62223', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ebrahim', 'STM32_PRG_PATH': '/home/ebrahim/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/ebrahim/.pixi/bin:/usr/bin:/home/ebrahim/anaconda3/condabin:/home/ebrahim/.pixi/bin:/usr/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ebrahim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ipg/bin:/opt/ipg/bin', 'SESSION_MANAGER': 'local/ebrahim-GS65-Stealth-9SG:@/tmp/.ICE-unix/9829,unix/ebrahim-GS65-Stealth-9SG:/tmp/.ICE-unix/9829', 'INVOCATION_ID': 'fea847610c4a41829f264cbb23b42f01', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e8206c796a.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/ackermann_to_vehiclecontrol:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/carmaker_rsds_client:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/ebrahim/anaconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cf400fae-bc53-48ef-86f4-9369c824f0a7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'DOCKER_HOST': 'unix:///run/user/1000/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_cmnode', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/ebrahim/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib/python3.12/site-packages:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils/lib/python3.12/site-packages:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'SANDBOX_LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CMAKE_PREFIX_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/ackermann_to_vehiclecontrol:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/carmaker_rsds_client:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.703574] (-) TimerEvent: {}
+[1.738772] (hellocm_cmnode) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/CMNode_ROS2_HelloCM.dir/src/CMNode_ROS2_HelloCM.cpp.o\x1b[0m\n'}
+[1.803660] (-) TimerEvent: {}
+[1.905222] (-) TimerEvent: {}
+[2.005524] (-) TimerEvent: {}
+[2.105904] (-) TimerEvent: {}
+[2.206243] (-) TimerEvent: {}
+[2.306762] (-) TimerEvent: {}
+[2.407155] (-) TimerEvent: {}
+[2.507469] (-) TimerEvent: {}
+[2.608347] (-) TimerEvent: {}
+[2.709179] (-) TimerEvent: {}
+[2.809647] (-) TimerEvent: {}
+[2.909973] (-) TimerEvent: {}
+[3.010555] (-) TimerEvent: {}
+[3.110797] (-) TimerEvent: {}
+[3.211085] (-) TimerEvent: {}
+[3.311489] (-) TimerEvent: {}
+[3.411827] (-) TimerEvent: {}
+[3.512101] (-) TimerEvent: {}
+[3.612464] (-) TimerEvent: {}
+[3.712733] (-) TimerEvent: {}
+[3.813052] (-) TimerEvent: {}
+[3.917118] (-) TimerEvent: {}
+[4.019068] (-) TimerEvent: {}
+[4.119398] (-) TimerEvent: {}
+[4.219754] (-) TimerEvent: {}
+[4.319940] (-) TimerEvent: {}
+[4.420251] (-) TimerEvent: {}
+[4.520892] (-) TimerEvent: {}
+[4.621287] (-) TimerEvent: {}
+[4.721593] (-) TimerEvent: {}
+[4.821892] (-) TimerEvent: {}
+[4.922247] (-) TimerEvent: {}
+[5.022798] (-) TimerEvent: {}
+[5.123078] (-) TimerEvent: {}
+[5.223436] (-) TimerEvent: {}
+[5.323706] (-) TimerEvent: {}
+[5.423990] (-) TimerEvent: {}
+[5.524371] (-) TimerEvent: {}
+[5.624757] (-) TimerEvent: {}
+[5.725190] (-) TimerEvent: {}
+[5.825597] (-) TimerEvent: {}
+[5.925888] (-) TimerEvent: {}
+[6.026215] (-) TimerEvent: {}
+[6.126479] (-) TimerEvent: {}
+[6.226748] (-) TimerEvent: {}
+[6.327055] (-) TimerEvent: {}
+[6.427415] (-) TimerEvent: {}
+[6.527960] (-) TimerEvent: {}
+[6.628207] (-) TimerEvent: {}
+[6.728562] (-) TimerEvent: {}
+[6.828760] (-) TimerEvent: {}
+[6.929025] (-) TimerEvent: {}
+[7.029327] (-) TimerEvent: {}
+[7.129593] (-) TimerEvent: {}
+[7.229851] (-) TimerEvent: {}
+[7.330177] (-) TimerEvent: {}
+[7.430568] (-) TimerEvent: {}
+[7.530819] (-) TimerEvent: {}
+[7.631139] (-) TimerEvent: {}
+[7.731429] (-) TimerEvent: {}
+[7.831843] (-) TimerEvent: {}
+[7.932119] (-) TimerEvent: {}
+[8.032416] (-) TimerEvent: {}
+[8.132787] (-) TimerEvent: {}
+[8.233156] (-) TimerEvent: {}
+[8.333493] (-) TimerEvent: {}
+[8.433737] (-) TimerEvent: {}
+[8.533991] (-) TimerEvent: {}
+[8.634399] (-) TimerEvent: {}
+[8.734786] (-) TimerEvent: {}
+[8.835054] (-) TimerEvent: {}
+[8.935281] (-) TimerEvent: {}
+[9.035633] (-) TimerEvent: {}
+[9.136267] (-) TimerEvent: {}
+[9.236724] (-) TimerEvent: {}
+[9.336984] (-) TimerEvent: {}
+[9.437197] (-) TimerEvent: {}
+[9.537477] (-) TimerEvent: {}
+[9.637736] (-) TimerEvent: {}
+[9.738042] (-) TimerEvent: {}
+[9.838332] (-) TimerEvent: {}
+[9.938741] (-) TimerEvent: {}
+[10.038972] (-) TimerEvent: {}
+[10.139248] (-) TimerEvent: {}
+[10.239504] (-) TimerEvent: {}
+[10.339824] (-) TimerEvent: {}
+[10.440358] (-) TimerEvent: {}
+[10.540761] (-) TimerEvent: {}
+[10.640997] (-) TimerEvent: {}
+[10.741259] (-) TimerEvent: {}
+[10.841716] (-) TimerEvent: {}
+[10.942107] (-) TimerEvent: {}
+[11.042468] (-) TimerEvent: {}
+[11.142923] (-) TimerEvent: {}
+[11.243702] (-) TimerEvent: {}
+[11.343985] (-) TimerEvent: {}
+[11.444280] (-) TimerEvent: {}
+[11.544503] (-) TimerEvent: {}
+[11.644793] (-) TimerEvent: {}
+[11.745218] (-) TimerEvent: {}
+[11.845862] (-) TimerEvent: {}
+[11.946093] (-) TimerEvent: {}
+[12.046382] (-) TimerEvent: {}
+[12.146807] (-) TimerEvent: {}
+[12.247087] (-) TimerEvent: {}
+[12.347359] (-) TimerEvent: {}
+[12.447604] (-) TimerEvent: {}
+[12.547866] (-) TimerEvent: {}
+[12.648263] (-) TimerEvent: {}
+[12.748712] (-) TimerEvent: {}
+[12.849172] (-) TimerEvent: {}
+[12.949522] (-) TimerEvent: {}
+[13.050218] (-) TimerEvent: {}
+[13.150744] (-) TimerEvent: {}
+[13.251183] (-) TimerEvent: {}
+[13.351385] (-) TimerEvent: {}
+[13.451609] (-) TimerEvent: {}
+[13.551859] (-) TimerEvent: {}
+[13.652363] (-) TimerEvent: {}
+[13.752741] (-) TimerEvent: {}
+[13.853203] (-) TimerEvent: {}
+[13.953462] (-) TimerEvent: {}
+[14.053854] (-) TimerEvent: {}
+[14.154212] (-) TimerEvent: {}
+[14.254647] (-) TimerEvent: {}
+[14.355074] (-) TimerEvent: {}
+[14.455354] (-) TimerEvent: {}
+[14.555610] (-) TimerEvent: {}
+[14.656156] (-) TimerEvent: {}
+[14.756708] (-) TimerEvent: {}
+[14.857564] (-) TimerEvent: {}
+[14.958086] (-) TimerEvent: {}
+[15.058343] (-) TimerEvent: {}
+[15.158588] (-) TimerEvent: {}
+[15.258940] (-) TimerEvent: {}
+[15.359265] (-) TimerEvent: {}
+[15.459684] (-) TimerEvent: {}
+[15.560180] (-) TimerEvent: {}
+[15.660837] (-) TimerEvent: {}
+[15.761126] (-) TimerEvent: {}
+[15.861502] (-) TimerEvent: {}
+[15.874063] (hellocm_cmnode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int cm_ros::CMNodeHelloCM::userTestrunStartAtBegin()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.874530] (hellocm_cmnode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:919:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kint system(const char*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.874681] (hellocm_cmnode) StderrLine: {'line': b'  919 |             \x1b[01;35m\x1b[Ksystem(sbuf)\x1b[m\x1b[K;\n'}
+[15.874814] (hellocm_cmnode) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[15.961606] (-) TimerEvent: {}
+[15.962674] (hellocm_cmnode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int cm_ros::CMNodeHelloCM::userTestrunEnd()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.962905] (hellocm_cmnode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_cmnode/src/CMNode_ROS2_HelloCM.cpp:982:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kint system(const char*)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kwarn_unused_result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result\x07-Wunused-result\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.963004] (hellocm_cmnode) StderrLine: {'line': b'  982 |     \x1b[01;35m\x1b[Ksystem("pkill -f carmaker_rsds_client_node > /dev/null 2>&1")\x1b[m\x1b[K;\n'}
+[15.963092] (hellocm_cmnode) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.061766] (-) TimerEvent: {}
+[16.162143] (-) TimerEvent: {}
+[16.262548] (-) TimerEvent: {}
+[16.362762] (-) TimerEvent: {}
+[16.463086] (-) TimerEvent: {}
+[16.563457] (-) TimerEvent: {}
+[16.663714] (-) TimerEvent: {}
+[16.764195] (-) TimerEvent: {}
+[16.864465] (-) TimerEvent: {}
+[16.964683] (-) TimerEvent: {}
+[17.064955] (-) TimerEvent: {}
+[17.165217] (-) TimerEvent: {}
+[17.265448] (-) TimerEvent: {}
+[17.365773] (-) TimerEvent: {}
+[17.466338] (-) TimerEvent: {}
+[17.566805] (-) TimerEvent: {}
+[17.667245] (-) TimerEvent: {}
+[17.767483] (-) TimerEvent: {}
+[17.867729] (-) TimerEvent: {}
+[17.968007] (-) TimerEvent: {}
+[18.068419] (-) TimerEvent: {}
+[18.168796] (-) TimerEvent: {}
+[18.269147] (-) TimerEvent: {}
+[18.369525] (-) TimerEvent: {}
+[18.469735] (-) TimerEvent: {}
+[18.570088] (-) TimerEvent: {}
+[18.670556] (-) TimerEvent: {}
+[18.770790] (-) TimerEvent: {}
+[18.871003] (-) TimerEvent: {}
+[18.971250] (-) TimerEvent: {}
+[19.071518] (-) TimerEvent: {}
+[19.171921] (-) TimerEvent: {}
+[19.272244] (-) TimerEvent: {}
+[19.372532] (-) TimerEvent: {}
+[19.472908] (-) TimerEvent: {}
+[19.573659] (-) TimerEvent: {}
+[19.674517] (-) TimerEvent: {}
+[19.774986] (-) TimerEvent: {}
+[19.875732] (-) TimerEvent: {}
+[19.976026] (-) TimerEvent: {}
+[20.076375] (-) TimerEvent: {}
+[20.176963] (-) TimerEvent: {}
+[20.277406] (-) TimerEvent: {}
+[20.377687] (-) TimerEvent: {}
+[20.478018] (-) TimerEvent: {}
+[20.578368] (-) TimerEvent: {}
+[20.678697] (-) TimerEvent: {}
+[20.779118] (-) TimerEvent: {}
+[20.879525] (-) TimerEvent: {}
+[20.979911] (-) TimerEvent: {}
+[21.080415] (-) TimerEvent: {}
+[21.181055] (-) TimerEvent: {}
+[21.281342] (-) TimerEvent: {}
+[21.381614] (-) TimerEvent: {}
+[21.481894] (-) TimerEvent: {}
+[21.582133] (-) TimerEvent: {}
+[21.682385] (-) TimerEvent: {}
+[21.782640] (-) TimerEvent: {}
+[21.883162] (-) TimerEvent: {}
+[21.983805] (-) TimerEvent: {}
+[22.084341] (-) TimerEvent: {}
+[22.184645] (-) TimerEvent: {}
+[22.284920] (-) TimerEvent: {}
+[22.385204] (-) TimerEvent: {}
+[22.485645] (-) TimerEvent: {}
+[22.586020] (-) TimerEvent: {}
+[22.686255] (-) TimerEvent: {}
+[22.786921] (-) TimerEvent: {}
+[22.887207] (-) TimerEvent: {}
+[22.987663] (-) TimerEvent: {}
+[23.087979] (-) TimerEvent: {}
+[23.188328] (-) TimerEvent: {}
+[23.288830] (-) TimerEvent: {}
+[23.389445] (-) TimerEvent: {}
+[23.490187] (-) TimerEvent: {}
+[23.590472] (-) TimerEvent: {}
+[23.690902] (-) TimerEvent: {}
+[23.791357] (-) TimerEvent: {}
+[23.891974] (-) TimerEvent: {}
+[23.992288] (-) TimerEvent: {}
+[24.092703] (-) TimerEvent: {}
+[24.193276] (-) TimerEvent: {}
+[24.293655] (-) TimerEvent: {}
+[24.393952] (-) TimerEvent: {}
+[24.494701] (-) TimerEvent: {}
+[24.595271] (-) TimerEvent: {}
+[24.695801] (-) TimerEvent: {}
+[24.796234] (-) TimerEvent: {}
+[24.896478] (-) TimerEvent: {}
+[24.996761] (-) TimerEvent: {}
+[25.097212] (-) TimerEvent: {}
+[25.197513] (-) TimerEvent: {}
+[25.297850] (-) TimerEvent: {}
+[25.398284] (-) TimerEvent: {}
+[25.498518] (-) TimerEvent: {}
+[25.598851] (-) TimerEvent: {}
+[25.699292] (-) TimerEvent: {}
+[25.799822] (-) TimerEvent: {}
+[25.900178] (-) TimerEvent: {}
+[26.000505] (-) TimerEvent: {}
+[26.100964] (-) TimerEvent: {}
+[26.201225] (-) TimerEvent: {}
+[26.301471] (-) TimerEvent: {}
+[26.401717] (-) TimerEvent: {}
+[26.502113] (-) TimerEvent: {}
+[26.602740] (-) TimerEvent: {}
+[26.703071] (-) TimerEvent: {}
+[26.803712] (-) TimerEvent: {}
+[26.904079] (-) TimerEvent: {}
+[27.004330] (-) TimerEvent: {}
+[27.104613] (-) TimerEvent: {}
+[27.205026] (-) TimerEvent: {}
+[27.305491] (-) TimerEvent: {}
+[27.405781] (-) TimerEvent: {}
+[27.506259] (-) TimerEvent: {}
+[27.606654] (-) TimerEvent: {}
+[27.706962] (-) TimerEvent: {}
+[27.807261] (-) TimerEvent: {}
+[27.907807] (-) TimerEvent: {}
+[28.008283] (-) TimerEvent: {}
+[28.108532] (-) TimerEvent: {}
+[28.208853] (-) TimerEvent: {}
+[28.309136] (-) TimerEvent: {}
+[28.409412] (-) TimerEvent: {}
+[28.509879] (-) TimerEvent: {}
+[28.610219] (-) TimerEvent: {}
+[28.710520] (-) TimerEvent: {}
+[28.810886] (-) TimerEvent: {}
+[28.911413] (-) TimerEvent: {}
+[29.011917] (-) TimerEvent: {}
+[29.112574] (-) TimerEvent: {}
+[29.212819] (-) TimerEvent: {}
+[29.313139] (-) TimerEvent: {}
+[29.413434] (-) TimerEvent: {}
+[29.513680] (-) TimerEvent: {}
+[29.613931] (-) TimerEvent: {}
+[29.714227] (-) TimerEvent: {}
+[29.814573] (-) TimerEvent: {}
+[29.914928] (-) TimerEvent: {}
+[30.015285] (-) TimerEvent: {}
+[30.115582] (-) TimerEvent: {}
+[30.215950] (-) TimerEvent: {}
+[30.316335] (-) TimerEvent: {}
+[30.416669] (-) TimerEvent: {}
+[30.517065] (-) TimerEvent: {}
+[30.617858] (-) TimerEvent: {}
+[30.718109] (-) TimerEvent: {}
+[30.818350] (-) TimerEvent: {}
+[30.918625] (-) TimerEvent: {}
+[31.019019] (-) TimerEvent: {}
+[31.119659] (-) TimerEvent: {}
+[31.220466] (-) TimerEvent: {}
+[31.321672] (-) TimerEvent: {}
+[31.422335] (-) TimerEvent: {}
+[31.522632] (-) TimerEvent: {}
+[31.623094] (-) TimerEvent: {}
+[31.723781] (-) TimerEvent: {}
+[31.824104] (-) TimerEvent: {}
+[31.925425] (-) TimerEvent: {}
+[32.025919] (-) TimerEvent: {}
+[32.126182] (-) TimerEvent: {}
+[32.226585] (-) TimerEvent: {}
+[32.326855] (-) TimerEvent: {}
+[32.427115] (-) TimerEvent: {}
+[32.527393] (-) TimerEvent: {}
+[32.627644] (-) TimerEvent: {}
+[32.727912] (-) TimerEvent: {}
+[32.828205] (-) TimerEvent: {}
+[32.928591] (-) TimerEvent: {}
+[33.029101] (-) TimerEvent: {}
+[33.129409] (-) TimerEvent: {}
+[33.229763] (-) TimerEvent: {}
+[33.329993] (-) TimerEvent: {}
+[33.430278] (-) TimerEvent: {}
+[33.530551] (-) TimerEvent: {}
+[33.630899] (-) TimerEvent: {}
+[33.731211] (-) TimerEvent: {}
+[33.831655] (-) TimerEvent: {}
+[33.932137] (-) TimerEvent: {}
+[34.032587] (-) TimerEvent: {}
+[34.133096] (-) TimerEvent: {}
+[34.233762] (-) TimerEvent: {}
+[34.333994] (-) TimerEvent: {}
+[34.434281] (-) TimerEvent: {}
+[34.534599] (-) TimerEvent: {}
+[34.634938] (-) TimerEvent: {}
+[34.735394] (-) TimerEvent: {}
+[34.835856] (-) TimerEvent: {}
+[34.936252] (-) TimerEvent: {}
+[35.036503] (-) TimerEvent: {}
+[35.136788] (-) TimerEvent: {}
+[35.237091] (-) TimerEvent: {}
+[35.337543] (-) TimerEvent: {}
+[35.437846] (-) TimerEvent: {}
+[35.538118] (-) TimerEvent: {}
+[35.638348] (-) TimerEvent: {}
+[35.738609] (-) TimerEvent: {}
+[35.839221] (-) TimerEvent: {}
+[35.939765] (-) TimerEvent: {}
+[36.040149] (-) TimerEvent: {}
+[36.142446] (-) TimerEvent: {}
+[36.243153] (-) TimerEvent: {}
+[36.343805] (-) TimerEvent: {}
+[36.444210] (-) TimerEvent: {}
+[36.544638] (-) TimerEvent: {}
+[36.645044] (-) TimerEvent: {}
+[36.745334] (-) TimerEvent: {}
+[36.845759] (-) TimerEvent: {}
+[36.946024] (-) TimerEvent: {}
+[37.047001] (-) TimerEvent: {}
+[37.147539] (-) TimerEvent: {}
+[37.247999] (-) TimerEvent: {}
+[37.348353] (-) TimerEvent: {}
+[37.448868] (-) TimerEvent: {}
+[37.549261] (-) TimerEvent: {}
+[37.649479] (-) TimerEvent: {}
+[37.749714] (-) TimerEvent: {}
+[37.850140] (-) TimerEvent: {}
+[37.950478] (-) TimerEvent: {}
+[38.050756] (-) TimerEvent: {}
+[38.150986] (-) TimerEvent: {}
+[38.251271] (-) TimerEvent: {}
+[38.351591] (-) TimerEvent: {}
+[38.451943] (-) TimerEvent: {}
+[38.552196] (-) TimerEvent: {}
+[38.652634] (-) TimerEvent: {}
+[38.753278] (-) TimerEvent: {}
+[38.853907] (-) TimerEvent: {}
+[38.954266] (-) TimerEvent: {}
+[39.054555] (-) TimerEvent: {}
+[39.154873] (-) TimerEvent: {}
+[39.255285] (-) TimerEvent: {}
+[39.355536] (-) TimerEvent: {}
+[39.456009] (-) TimerEvent: {}
+[39.556369] (-) TimerEvent: {}
+[39.656637] (-) TimerEvent: {}
+[39.756918] (-) TimerEvent: {}
+[39.857381] (-) TimerEvent: {}
+[39.957670] (-) TimerEvent: {}
+[40.057981] (-) TimerEvent: {}
+[40.158416] (-) TimerEvent: {}
+[40.258884] (-) TimerEvent: {}
+[40.359240] (-) TimerEvent: {}
+[40.459541] (-) TimerEvent: {}
+[40.559838] (-) TimerEvent: {}
+[40.660216] (-) TimerEvent: {}
+[40.760657] (-) TimerEvent: {}
+[40.861005] (-) TimerEvent: {}
+[40.961416] (-) TimerEvent: {}
+[41.061743] (-) TimerEvent: {}
+[41.162290] (-) TimerEvent: {}
+[41.262769] (-) TimerEvent: {}
+[41.363038] (-) TimerEvent: {}
+[41.463376] (-) TimerEvent: {}
+[41.563698] (-) TimerEvent: {}
+[41.664146] (-) TimerEvent: {}
+[41.764349] (-) TimerEvent: {}
+[41.864595] (-) TimerEvent: {}
+[41.964976] (-) TimerEvent: {}
+[42.065548] (-) TimerEvent: {}
+[42.166337] (-) TimerEvent: {}
+[42.266739] (-) TimerEvent: {}
+[42.366967] (-) TimerEvent: {}
+[42.467278] (-) TimerEvent: {}
+[42.567513] (-) TimerEvent: {}
+[42.667739] (-) TimerEvent: {}
+[42.767989] (-) TimerEvent: {}
+[42.868245] (-) TimerEvent: {}
+[42.968472] (-) TimerEvent: {}
+[43.068662] (-) TimerEvent: {}
+[43.169084] (-) TimerEvent: {}
+[43.269581] (-) TimerEvent: {}
+[43.370188] (-) TimerEvent: {}
+[43.470595] (-) TimerEvent: {}
+[43.571160] (-) TimerEvent: {}
+[43.671390] (-) TimerEvent: {}
+[43.771641] (-) TimerEvent: {}
+[43.871945] (-) TimerEvent: {}
+[43.933322] (hellocm_cmnode) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libCMNode_ROS2_HelloCM.so\x1b[0m\n'}
+[43.972028] (-) TimerEvent: {}
+[44.072397] (-) TimerEvent: {}
+[44.173015] (-) TimerEvent: {}
+[44.274405] (-) TimerEvent: {}
+[44.374878] (-) TimerEvent: {}
+[44.438953] (hellocm_cmnode) StdoutLine: {'line': b'[100%] Built target CMNode_ROS2_HelloCM\n'}
+[44.459467] (hellocm_cmnode) CommandEnded: {'returncode': 0}
+[44.460324] (hellocm_cmnode) JobProgress: {'identifier': 'hellocm_cmnode', 'progress': 'install'}
+[44.472892] (hellocm_cmnode) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_cmnode'], 'cwd': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_cmnode', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ebrahim', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/share/gz:/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'STM32CubeMX_PATH': '/home/ebrahim/STM32CubeMX', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/lib:/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/ebrahim', 'CHROME_DESKTOP': 'antigravity.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/ebrahim/formula-carmaker-fs_2025', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '8786', 'SYSTEMD_EXEC_PID': '10272', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'ORB_SLAM_ROOT_DIR': '/home/ebrahim/tractor_agri_simulator/ORB-SLAM3', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'IPGHOME': '/opt/ipg', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '28005', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ebrahim', 'JOURNAL_STREAM': '9:62223', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ebrahim', 'STM32_PRG_PATH': '/home/ebrahim/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/ebrahim/.pixi/bin:/usr/bin:/home/ebrahim/anaconda3/condabin:/home/ebrahim/.pixi/bin:/usr/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ebrahim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ipg/bin:/opt/ipg/bin', 'SESSION_MANAGER': 'local/ebrahim-GS65-Stealth-9SG:@/tmp/.ICE-unix/9829,unix/ebrahim-GS65-Stealth-9SG:/tmp/.ICE-unix/9829', 'INVOCATION_ID': 'fea847610c4a41829f264cbb23b42f01', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'RMW_IMPLEMENTATION': 'rmw_zenoh_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e8206c796a.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/ackermann_to_vehiclecontrol:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/carmaker_rsds_client:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/ebrahim/anaconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:cf400fae-bc53-48ef-86f4-9369c824f0a7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'DOCKER_HOST': 'unix:///run/user/1000/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_cmnode', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/ebrahim/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs/lib/python3.12/site-packages:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils/lib/python3.12/site-packages:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'SANDBOX_LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CMAKE_PREFIX_PATH': '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/vehiclecontrol_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/cmrosutils:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/camera_msgs:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/ackermann_to_vehiclecontrol:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm:/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/carmaker_rsds_client:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[44.474960] (-) TimerEvent: {}
+[44.484827] (hellocm_cmnode) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[44.485027] (hellocm_cmnode) StdoutLine: {'line': b'-- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/lib/libCMNode_ROS2_HelloCM.so\n'}
+[44.486512] (hellocm_cmnode) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/lib/libCMNode_ROS2_HelloCM.so" to ""\n'}
+[44.486911] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode//launch\n'}
+[44.487102] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode//launch/ads-dv_rviz2.rviz\n'}
+[44.487349] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode//launch/ads-dv_rviz2.launch.py\n'}
+[44.487624] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/library_path.sh\n'}
+[44.487993] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/library_path.dsv\n'}
+[44.488137] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/ament_index/resource_index/package_run_dependencies/hellocm_cmnode\n'}
+[44.488284] (hellocm_cmnode) StdoutLine: {'line': b'-- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/ament_index/resource_index/parent_prefix_path/hellocm_cmnode\n'}
+[44.488473] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/ament_prefix_path.sh\n'}
+[44.488600] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/ament_prefix_path.dsv\n'}
+[44.488722] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/path.sh\n'}
+[44.488835] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/environment/path.dsv\n'}
+[44.488945] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.bash\n'}
+[44.489058] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.sh\n'}
+[44.489174] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.zsh\n'}
+[44.489287] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/local_setup.dsv\n'}
+[44.489470] (hellocm_cmnode) StdoutLine: {'line': b'-- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/package.dsv\n'}
+[44.489588] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/ament_index/resource_index/packages/hellocm_cmnode\n'}
+[44.489714] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[44.489840] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/cmake/hellocm_cmnodeConfig.cmake\n'}
+[44.489949] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/cmake/hellocm_cmnodeConfig-version.cmake\n'}
+[44.490052] (hellocm_cmnode) StdoutLine: {'line': b'-- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_cmnode/share/hellocm_cmnode/package.xml\n'}
+[44.491792] (hellocm_cmnode) CommandEnded: {'returncode': 0}
+[44.531681] (hellocm_cmnode) JobEnded: {'identifier': 'hellocm_cmnode', 'rc': 0}
+[44.532500] (-) EventReactorShutdown: {}

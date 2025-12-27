@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ackermann_to_vehiclecontrol</name>
+  <version>0.0.0</version>
+  <description>Converts AckermannDriveStamped messages to VehicleControl messages for CarMaker integration</description>
+  <maintainer email="ebrahimabdelghfar550@gmail.com">ebrahim</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>ackermann_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>vehiclecontrol_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

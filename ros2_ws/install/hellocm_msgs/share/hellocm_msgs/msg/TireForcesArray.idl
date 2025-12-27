@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hellocm_msgs/msg/TireForcesArray.msg
+// generated code does not contain a copyright notice
+
+#include "hellocm_msgs/msg/TireForces.idl"
+#include "std_msgs/msg/Header.idl"
+
+module hellocm_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Tire Forces Array Message" "\n"
+      "Provides tire forces data for all four tires from CarMaker Pacejka model")
+    struct TireForcesArray {
+      @verbatim (language="comment", text=
+        "Header with timestamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Individual tire forces (FL, FR, RL, RR)")
+      hellocm_msgs::msg::TireForces front_left;
+
+      hellocm_msgs::msg::TireForces front_right;
+
+      hellocm_msgs::msg::TireForces rear_left;
+
+      hellocm_msgs::msg::TireForces rear_right;
+    };
+  };
+};

@@ -1,0 +1,58 @@
+[0.016s] Invoking command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_msgs -DCARMAKER_VER:STRING=14.1.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-14.1.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs
+[0.024s] Not searching for unused variables given on the command line.
+[0.071s] -- The C compiler identification is GNU 12.4.0
+[0.138s] -- The CXX compiler identification is GNU 12.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.262s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.262s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.399s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.412s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.417s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.569s] -- Found Python3: /home/ebrahim/anaconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[0.745s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.939s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.945s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.183s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.183s]   execute_process(/home/ebrahim/anaconda3/bin/python3 -m rosidl_adapter
+[1.183s]   --package-name hellocm_msgs --arguments-file
+[1.183s]   /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs/rosidl_adapter__arguments__hellocm_msgs.json
+[1.183s]   --output-dir
+[1.183s]   /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs/rosidl_adapter/hellocm_msgs
+[1.183s]   --output-file
+[1.183s]   /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs/rosidl_adapter/hellocm_msgs.idls)
+[1.183s]   returned error code 1:
+[1.183s] 
+[1.184s]   Traceback (most recent call last):
+[1.184s] 
+[1.184s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[1.184s]     File "<frozen runpy>", line 88, in _run_code
+[1.184s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.184s]       sys.exit(main())
+[1.184s]                ~~~~^^
+[1.184s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.184s]       abs_idl_file = convert_to_idl(
+[1.184s]           pathlib.Path(basepath), args.package_name,
+[1.184s]           pathlib.Path(relative_path), output_dir)
+[1.184s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[1.185s]       from rosidl_adapter.msg import convert_msg_to_idl
+[1.185s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[1.185s]       from rosidl_adapter.resource import expand_template
+[1.185s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[1.185s]       import em
+[1.185s] 
+[1.185s]   ModuleNotFoundError: No module named 'em'
+[1.185s] 
+[1.185s] Call Stack (most recent call first):
+[1.185s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.185s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[1.185s] 
+[1.185s] [0m
+[1.185s] -- Configuring incomplete, errors occurred!
+[1.197s] Invoked command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_msgs -DCARMAKER_VER:STRING=14.1.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-14.1.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs

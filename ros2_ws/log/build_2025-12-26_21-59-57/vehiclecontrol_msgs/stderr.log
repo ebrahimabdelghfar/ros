@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/vehiclecontrol_msgs/ament_cmake_python/vehiclecontrol_msgs/vehiclecontrol_msgs' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_vehiclecontrol_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_vehiclecontrol_msgs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_vehiclecontrol_msgs.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

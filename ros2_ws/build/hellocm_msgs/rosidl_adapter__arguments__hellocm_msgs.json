@@ -1,0 +1,11 @@
+{
+  "package_name": "hellocm_msgs",
+  "non_idl_tuples": [
+    "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_msgs:msg/CM2Ext.msg",
+    "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_msgs:msg/Ext2CM.msg",
+    "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_msgs:msg/TireSteering.msg",
+    "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_msgs:msg/TireForces.msg",
+    "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_msgs:msg/TireForcesArray.msg",
+    "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_msgs:srv/Init.srv"
+  ]
+}
