@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "camera_msgs/msg/detail/camera_detection_array__functions.h"
+#include "camera_msgs/msg/detail/camera_detection_array__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "camera_msgs/msg/detail/camera_detection_array__type_support.h"
-#include "camera_msgs/msg/detail/camera_detection_array__struct.h"
-#include "camera_msgs/msg/detail/camera_detection_array__functions.h"
 
 #ifdef __cplusplus
 extern "C"

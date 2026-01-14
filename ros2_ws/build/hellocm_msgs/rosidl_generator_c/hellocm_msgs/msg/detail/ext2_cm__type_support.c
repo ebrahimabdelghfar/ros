@@ -6,8 +6,8 @@
 
 #include "hellocm_msgs/msg/detail/ext2_cm__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "hellocm_msgs/msg/detail/ext2_cm__struct.h"
 #include "hellocm_msgs/msg/detail/ext2_cm__functions.h"
+#include "hellocm_msgs/msg/detail/ext2_cm__struct.h"
 
 #ifdef __cplusplus
 extern "C"

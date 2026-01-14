@@ -11,3 +11,8 @@ ackermann_to_vehiclecontrol_node:
     
     # Maximum steering angle in radians (used for clamping input)
     max_steering_angle: 30.0
+    
+    # Tire-to-pinion angle ratio
+    # This converts tire steering angle (from Ackermann) to pinion angle (for VehicleControl)
+    # Formula: pinion_angle = tire_angle * tire_to_pinion_ratio
+    tire_to_pinion_ratio: 6.778183285

@@ -1,0 +1,419 @@
+[0.032s] Invoking command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_msgs -DCARMAKER_VER:STRING=14.1.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-14.1.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs
+[0.051s] Not searching for unused variables given on the command line.
+[0.136s] -- The C compiler identification is GNU 12.4.0
+[0.245s] -- The CXX compiler identification is GNU 12.4.0
+[0.266s] -- Detecting C compiler ABI info
+[0.388s] -- Detecting C compiler ABI info - done
+[0.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.403s] -- Detecting C compile features
+[0.404s] -- Detecting C compile features - done
+[0.416s] -- Detecting CXX compiler ABI info
+[0.538s] -- Detecting CXX compiler ABI info - done
+[0.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.562s] -- Detecting CXX compile features
+[0.564s] -- Detecting CXX compile features - done
+[0.570s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.079s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.276s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.440s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.445s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.754s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.839s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.253s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.587s] -- Found PythonExtra: /usr/bin/python3  
+[6.627s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.725s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.795s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.799s] -- Added test 'lint_cmake' to check CMake code style
+[6.802s] -- Added test 'xmllint' to check XML markup files
+[6.808s] -- Configuring done (6.8s)
+[6.893s] -- Generating done (0.1s)
+[6.907s] -- Build files have been written to: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs
+[6.921s] Invoked command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/hellocm_msgs -DCARMAKER_VER:STRING=14.1.1 -DCARMAKER_DIR:PATH=/opt/ipg/carmaker/linux64-14.1.1 --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs
+[6.922s] Invoking command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs -- -j12 -l12
+[6.987s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.010s] [  1%] Built target ament_cmake_python_copy_hellocm_msgs
+[7.409s] running egg_info
+[7.411s] creating hellocm_msgs.egg-info
+[7.705s] writing hellocm_msgs.egg-info/PKG-INFO
+[7.705s] writing dependency_links to hellocm_msgs.egg-info/dependency_links.txt
+[7.706s] writing top-level names to hellocm_msgs.egg-info/top_level.txt
+[7.706s] writing manifest file 'hellocm_msgs.egg-info/SOURCES.txt'
+[7.942s] reading manifest file 'hellocm_msgs.egg-info/SOURCES.txt'
+[7.943s] writing manifest file 'hellocm_msgs.egg-info/SOURCES.txt'
+[8.000s] [  1%] Built target ament_cmake_python_build_hellocm_msgs_egg
+[8.597s] [  1%] Built target hellocm_msgs__rosidl_generator_type_description
+[8.653s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.680s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.052s] [  3%] Built target hellocm_msgs__cpp
+[12.293s] [  5%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/cm2_ext__functions.c.o[0m
+[12.293s] [  5%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/cm2_ext__type_support.c.o[0m
+[12.293s] [  8%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/ext2_cm__type_support.c.o[0m
+[12.293s] [  8%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/ext2_cm__description.c.o[0m
+[12.302s] [  9%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/tire_steering__description.c.o[0m
+[12.302s] [ 11%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/ext2_cm__functions.c.o[0m
+[12.305s] [ 11%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/cm2_ext__description.c.o[0m
+[12.307s] [ 13%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/tire_steering__type_support.c.o[0m
+[12.308s] [ 14%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/tire_steering__functions.c.o[0m
+[12.309s] [ 15%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/tire_forces__description.c.o[0m
+[12.311s] [ 16%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/tire_forces__functions.c.o[0m
+[12.317s] [ 17%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/tire_forces__type_support.c.o[0m
+[12.370s] [ 19%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/tire_forces_array__functions.c.o[0m
+[12.370s] [ 20%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/tire_forces_array__description.c.o[0m
+[12.397s] [ 21%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/msg/detail/tire_forces_array__type_support.c.o[0m
+[12.408s] [ 22%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/srv/detail/init__description.c.o[0m
+[12.412s] [ 23%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/srv/detail/init__functions.c.o[0m
+[12.417s] [ 25%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_c.dir/rosidl_generator_c/hellocm_msgs/srv/detail/init__type_support.c.o[0m
+[12.525s] [ 26%] [32m[1mLinking C shared library libhellocm_msgs__rosidl_generator_c.so[0m
+[12.582s] [ 26%] Built target hellocm_msgs__rosidl_generator_c
+[12.605s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.606s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.607s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.608s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.609s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.612s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.303s] [ 35%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hellocm_msgs/msg/ext2_cm__type_support.cpp.o[0m
+[14.303s] [ 35%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hellocm_msgs/msg/tire_steering__type_support.cpp.o[0m
+[14.321s] [ 36%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hellocm_msgs/msg/cm2_ext__type_support.cpp.o[0m
+[14.323s] [ 38%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hellocm_msgs/srv/init__type_support.cpp.o[0m
+[14.324s] [ 39%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hellocm_msgs/msg/tire_forces__type_support.cpp.o[0m
+[14.325s] [ 40%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hellocm_msgs/msg/tire_forces_array__type_support.cpp.o[0m
+[14.445s] [ 41%] [32m[1mLinking CXX shared library libhellocm_msgs__rosidl_typesupport_c.so[0m
+[14.469s] [ 44%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hellocm_msgs/msg/tire_steering__type_support.cpp.o[0m
+[14.470s] [ 44%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hellocm_msgs/msg/ext2_cm__type_support.cpp.o[0m
+[14.471s] [ 45%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hellocm_msgs/msg/tire_forces__type_support.cpp.o[0m
+[14.472s] [ 46%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hellocm_msgs/srv/init__type_support.cpp.o[0m
+[14.473s] [ 47%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hellocm_msgs/msg/tire_forces_array__type_support.cpp.o[0m
+[14.477s] [ 48%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hellocm_msgs/msg/cm2_ext__type_support.cpp.o[0m
+[14.492s] [ 50%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hellocm_msgs/msg/detail/cm2_ext__type_support.cpp.o[0m
+[14.512s] [ 51%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hellocm_msgs/msg/detail/ext2_cm__type_support.cpp.o[0m
+[14.561s] [ 51%] Built target hellocm_msgs__rosidl_typesupport_c
+[14.600s] [ 52%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hellocm_msgs/msg/detail/tire_steering__type_support.cpp.o[0m
+[14.976s] [ 53%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hellocm_msgs/msg/detail/cm2_ext__type_support.c.o[0m
+[15.089s] [ 54%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hellocm_msgs/msg/detail/ext2_cm__type_support.c.o[0m
+[15.185s] [ 55%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hellocm_msgs/msg/detail/tire_steering__type_support.c.o[0m
+[15.207s] [ 57%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hellocm_msgs/msg/detail/tire_forces__type_support.cpp.o[0m
+[15.301s] [ 58%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hellocm_msgs/msg/detail/cm2_ext__type_support_c.cpp.o[0m
+[15.319s] [ 59%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hellocm_msgs/msg/detail/tire_forces__type_support.c.o[0m
+[15.361s] [ 60%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hellocm_msgs/msg/detail/dds_fastrtps/cm2_ext__type_support.cpp.o[0m
+[15.387s] [ 61%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hellocm_msgs/msg/detail/dds_fastrtps/ext2_cm__type_support.cpp.o[0m
+[15.398s] [ 63%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hellocm_msgs/msg/detail/dds_fastrtps/tire_steering__type_support.cpp.o[0m
+[15.414s] [ 64%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hellocm_msgs/msg/detail/dds_fastrtps/tire_forces__type_support.cpp.o[0m
+[15.439s] [ 65%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hellocm_msgs/msg/detail/tire_forces_array__type_support.cpp.o[0m
+[15.446s] [ 66%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hellocm_msgs/msg/detail/tire_forces_array__type_support.c.o[0m
+[15.479s] [ 67%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hellocm_msgs/srv/detail/init__type_support.cpp.o[0m
+[15.495s] [ 69%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hellocm_msgs/srv/detail/init__type_support.c.o[0m
+[15.580s] [ 70%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hellocm_msgs/msg/detail/dds_fastrtps/tire_forces_array__type_support.cpp.o[0m
+[15.599s] [ 71%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hellocm_msgs/msg/detail/ext2_cm__type_support_c.cpp.o[0m
+[15.638s] [ 72%] [32m[1mLinking CXX shared library libhellocm_msgs__rosidl_typesupport_cpp.so[0m
+[15.666s] [ 73%] [32m[1mLinking C shared library libhellocm_msgs__rosidl_typesupport_introspection_c.so[0m
+[15.796s] [ 73%] Built target hellocm_msgs__rosidl_typesupport_introspection_c
+[15.802s] [ 73%] Built target hellocm_msgs__rosidl_typesupport_cpp
+[15.826s] [ 75%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hellocm_msgs/srv/detail/dds_fastrtps/init__type_support.cpp.o[0m
+[15.827s] [ 76%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hellocm_msgs/msg/detail/tire_steering__type_support_c.cpp.o[0m
+[16.016s] [ 77%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hellocm_msgs/msg/detail/tire_forces__type_support_c.cpp.o[0m
+[16.356s] [ 78%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hellocm_msgs/msg/detail/tire_forces_array__type_support_c.cpp.o[0m
+[16.607s] [ 79%] [32mBuilding CXX object CMakeFiles/hellocm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hellocm_msgs/srv/detail/init__type_support_c.cpp.o[0m
+[16.889s] [ 80%] [32m[1mLinking CXX shared library libhellocm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[17.017s] [ 80%] Built target hellocm_msgs__rosidl_typesupport_introspection_cpp
+[17.373s] [ 82%] [32m[1mLinking CXX shared library libhellocm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.460s] [ 82%] Built target hellocm_msgs__rosidl_typesupport_fastrtps_cpp
+[17.528s] [ 83%] [32m[1mLinking CXX shared library libhellocm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[17.619s] [ 83%] Built target hellocm_msgs__rosidl_typesupport_fastrtps_c
+[17.646s] [ 83%] Built target hellocm_msgs
+[17.667s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.312s] [ 84%] Built target hellocm_msgs__py
+[19.333s] [ 88%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_py.dir/rosidl_generator_py/hellocm_msgs/msg/_tire_forces_s.c.o[0m
+[19.333s] [ 88%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_py.dir/rosidl_generator_py/hellocm_msgs/srv/_init_s.c.o[0m
+[19.333s] [ 88%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_py.dir/rosidl_generator_py/hellocm_msgs/msg/_ext2_cm_s.c.o[0m
+[19.333s] [ 89%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_py.dir/rosidl_generator_py/hellocm_msgs/msg/_cm2_ext_s.c.o[0m
+[19.337s] [ 91%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_py.dir/rosidl_generator_py/hellocm_msgs/msg/_tire_forces_array_s.c.o[0m
+[19.337s] [ 91%] [32mBuilding C object CMakeFiles/hellocm_msgs__rosidl_generator_py.dir/rosidl_generator_py/hellocm_msgs/msg/_tire_steering_s.c.o[0m
+[19.612s] [ 92%] [32m[1mLinking C shared library libhellocm_msgs__rosidl_generator_py.so[0m
+[19.657s] [ 92%] Built target hellocm_msgs__rosidl_generator_py
+[19.678s] [ 94%] [32mBuilding C object CMakeFiles/hellocm_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.678s] [ 95%] [32mBuilding C object CMakeFiles/hellocm_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[19.679s] [ 96%] [32mBuilding C object CMakeFiles/hellocm_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.839s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[19.841s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[19.845s] [100%] [32m[1mLinking C shared module rosidl_generator_py/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_c.so[0m
+[19.874s] [100%] Built target hellocm_msgs_s__rosidl_typesupport_introspection_c
+[19.874s] [100%] Built target hellocm_msgs_s__rosidl_typesupport_fastrtps_c
+[19.877s] [100%] Built target hellocm_msgs_s__rosidl_typesupport_c
+[19.889s] Invoked command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs -- -j12 -l12
+[19.890s] Invoking command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs
+[19.898s] -- Install configuration: ""
+[19.899s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/ament_index/resource_index/rosidl_interfaces/hellocm_msgs
+[19.899s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/CM2Ext.json
+[19.899s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/Ext2CM.json
+[19.899s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/TireSteering.json
+[19.899s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/TireForces.json
+[19.899s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/TireForcesArray.json
+[19.899s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/srv/Init.json
+[19.899s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[19.900s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[19.900s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[19.900s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__struct.h
+[19.900s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__description.c
+[19.900s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__type_support.c
+[19.900s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__functions.c
+[19.900s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__type_support.h
+[19.900s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__functions.h
+[19.900s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/init.h
+[19.900s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__description.c
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__type_support.c
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__functions.c
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__struct.h
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__type_support.h
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__description.c
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__struct.h
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__functions.h
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__functions.h
+[19.901s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__functions.c
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__type_support.c
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__struct.h
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__type_support.h
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__type_support.h
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__type_support.c
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__type_support.c
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__type_support.h
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__description.c
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__functions.h
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__description.c
+[19.902s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__functions.c
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__struct.h
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__type_support.h
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__struct.h
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__functions.h
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__description.c
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__functions.c
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__functions.h
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__type_support.c
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__functions.c
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/tire_forces.h
+[19.903s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/tire_forces_array.h
+[19.904s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/ext2_cm.h
+[19.904s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/tire_steering.h
+[19.904s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.904s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/cm2_ext.h
+[19.904s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/library_path.sh
+[19.904s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/library_path.dsv
+[19.904s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_generator_c.so
+[19.904s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_generator_c.so" to ""
+[19.904s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[19.904s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[19.904s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[19.904s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__rosidl_typesupport_fastrtps_c.h
+[19.905s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[19.905s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[19.905s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__rosidl_typesupport_fastrtps_c.h
+[19.905s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__rosidl_typesupport_fastrtps_c.h
+[19.905s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__rosidl_typesupport_fastrtps_c.h
+[19.905s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__rosidl_typesupport_fastrtps_c.h
+[19.905s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__rosidl_typesupport_fastrtps_c.h
+[19.905s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.905s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_fastrtps_c.so
+[19.905s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.905s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[19.906s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[19.906s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[19.906s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__type_support.c
+[19.906s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__rosidl_typesupport_introspection_c.h
+[19.906s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[19.906s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[19.906s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__rosidl_typesupport_introspection_c.h
+[19.906s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__rosidl_typesupport_introspection_c.h
+[19.906s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__type_support.c
+[19.906s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__type_support.c
+[19.907s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__type_support.c
+[19.907s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__type_support.c
+[19.907s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__rosidl_typesupport_introspection_c.h
+[19.907s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__rosidl_typesupport_introspection_c.h
+[19.907s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__type_support.c
+[19.907s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__rosidl_typesupport_introspection_c.h
+[19.907s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.907s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_introspection_c.so
+[19.907s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.907s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_c.so
+[19.907s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_c.so" to ""
+[19.908s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[19.908s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[19.908s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[19.908s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__struct.hpp
+[19.908s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__builder.hpp
+[19.908s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__traits.hpp
+[19.908s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__type_support.hpp
+[19.908s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/init.hpp
+[19.908s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[19.909s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[19.909s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__struct.hpp
+[19.909s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__struct.hpp
+[19.909s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__type_support.hpp
+[19.909s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__type_support.hpp
+[19.909s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__builder.hpp
+[19.909s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__builder.hpp
+[19.909s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__type_support.hpp
+[19.909s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__builder.hpp
+[19.909s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__struct.hpp
+[19.909s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__struct.hpp
+[19.910s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__traits.hpp
+[19.910s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__builder.hpp
+[19.910s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__struct.hpp
+[19.910s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__traits.hpp
+[19.910s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__traits.hpp
+[19.910s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__traits.hpp
+[19.910s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__builder.hpp
+[19.910s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__type_support.hpp
+[19.910s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__traits.hpp
+[19.910s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__type_support.hpp
+[19.911s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/tire_steering.hpp
+[19.911s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/cm2_ext.hpp
+[19.911s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.911s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/tire_forces_array.hpp
+[19.911s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/tire_forces.hpp
+[19.911s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/ext2_cm.hpp
+[19.911s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[19.911s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[19.911s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[19.911s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__rosidl_typesupport_fastrtps_cpp.hpp
+[19.912s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/dds_fastrtps
+[19.912s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[19.912s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[19.912s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__rosidl_typesupport_fastrtps_cpp.hpp
+[19.912s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__rosidl_typesupport_fastrtps_cpp.hpp
+[19.912s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/dds_fastrtps
+[19.912s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__rosidl_typesupport_fastrtps_cpp.hpp
+[19.912s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__rosidl_typesupport_fastrtps_cpp.hpp
+[19.912s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__rosidl_typesupport_fastrtps_cpp.hpp
+[19.912s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.913s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.913s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.913s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs
+[19.913s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv
+[19.913s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail
+[19.913s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__type_support.cpp
+[19.913s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/srv/detail/init__rosidl_typesupport_introspection_cpp.hpp
+[19.913s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg
+[19.913s] -- Up-to-date: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail
+[19.913s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__rosidl_typesupport_introspection_cpp.hpp
+[19.913s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__type_support.cpp
+[19.914s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__rosidl_typesupport_introspection_cpp.hpp
+[19.914s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__type_support.cpp
+[19.914s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/ext2_cm__rosidl_typesupport_introspection_cpp.hpp
+[19.914s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_steering__rosidl_typesupport_introspection_cpp.hpp
+[19.914s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__rosidl_typesupport_introspection_cpp.hpp
+[19.914s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/cm2_ext__type_support.cpp
+[19.914s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces__type_support.cpp
+[19.914s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/include/hellocm_msgs/hellocm_msgs/msg/detail/tire_forces_array__type_support.cpp
+[19.914s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_introspection_cpp.so
+[19.914s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.914s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_cpp.so
+[19.914s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_typesupport_cpp.so" to ""
+[19.915s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/pythonpath.sh
+[19.915s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/pythonpath.dsv
+[19.915s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs-0.1.0-py3.12.egg-info
+[19.915s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs-0.1.0-py3.12.egg-info/SOURCES.txt
+[19.915s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs-0.1.0-py3.12.egg-info/PKG-INFO
+[19.915s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs-0.1.0-py3.12.egg-info/top_level.txt
+[19.915s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs-0.1.0-py3.12.egg-info/dependency_links.txt
+[19.915s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs
+[19.915s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_c.so
+[19.915s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_c.c
+[19.916s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.916s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_introspection_c.so
+[19.916s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/srv
+[19.916s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/srv/_init_s.c
+[19.916s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/srv/_init.py
+[19.916s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/srv/__init__.py
+[19.916s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_fastrtps_c.so
+[19.916s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg
+[19.916s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_tire_forces_s.c
+[19.916s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_cm2_ext_s.c
+[19.917s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_tire_forces_array.py
+[19.917s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_ext2_cm.py
+[19.917s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_tire_forces_array_s.c
+[19.917s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_cm2_ext.py
+[19.917s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_tire_steering_s.c
+[19.917s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_tire_forces.py
+[19.917s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_ext2_cm_s.c
+[19.917s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_tire_steering.py
+[19.917s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/__init__.py
+[19.917s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/__init__.py
+[19.918s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/_hellocm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.980s] Listing '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs'...
+[19.980s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/__init__.py'...
+[19.980s] Listing '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg'...
+[19.980s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/__init__.py'...
+[19.980s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_cm2_ext.py'...
+[19.980s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_ext2_cm.py'...
+[19.980s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_tire_forces.py'...
+[19.981s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_tire_forces_array.py'...
+[19.981s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/msg/_tire_steering.py'...
+[19.981s] Listing '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/srv'...
+[19.981s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/srv/__init__.py'...
+[19.981s] Compiling '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/srv/_init.py'...
+[19.988s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_fastrtps_c.so
+[19.988s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[19.989s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_introspection_c.so
+[19.989s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[19.989s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_c.so
+[19.989s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/python3.12/site-packages/hellocm_msgs/hellocm_msgs_s__rosidl_typesupport_c.so" to ""
+[19.989s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_generator_py.so
+[19.990s] -- Set non-toolchain portion of runtime path of "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/lib/libhellocm_msgs__rosidl_generator_py.so" to ""
+[19.990s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/CM2Ext.idl
+[19.990s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/Ext2CM.idl
+[19.990s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/TireSteering.idl
+[19.990s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/TireForces.idl
+[19.990s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/TireForcesArray.idl
+[19.990s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/srv/Init.idl
+[19.990s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/CM2Ext.msg
+[19.991s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/Ext2CM.msg
+[19.991s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/TireSteering.msg
+[19.991s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/TireForces.msg
+[19.991s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/msg/TireForcesArray.msg
+[19.991s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/srv/Init.srv
+[19.991s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/ament_index/resource_index/package_run_dependencies/hellocm_msgs
+[19.991s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/ament_index/resource_index/parent_prefix_path/hellocm_msgs
+[19.991s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/ament_prefix_path.sh
+[19.991s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/ament_prefix_path.dsv
+[19.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/path.sh
+[19.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/environment/path.dsv
+[19.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/local_setup.bash
+[19.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/local_setup.sh
+[19.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/local_setup.zsh
+[19.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/local_setup.dsv
+[19.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.dsv
+[19.992s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/ament_index/resource_index/packages/hellocm_msgs
+[19.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_generator_cExport.cmake
+[19.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_generator_cExport-noconfig.cmake
+[19.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[19.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.993s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_cExport.cmake
+[19.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[19.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_generator_cppExport.cmake
+[19.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_cppExport.cmake
+[19.994s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[19.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_generator_pyExport.cmake
+[19.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/export_hellocm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[19.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/rosidl_cmake-extras.cmake
+[19.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.995s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.996s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.996s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgsConfig.cmake
+[19.996s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/cmake/hellocm_msgsConfig-version.cmake
+[19.996s] -- Installing: /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/install/hellocm_msgs/share/hellocm_msgs/package.xml
+[19.998s] Invoked command in '/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/hellocm_msgs

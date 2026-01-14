@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "hellocm_msgs/msg/detail/tire_forces_array__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "hellocm_msgs/msg/detail/tire_forces_array__struct.h"
-#include "hellocm_msgs/msg/detail/tire_forces_array__functions.h"
 #include "hellocm_msgs/msg/detail/tire_forces_array__type_support.h"
 
 #ifdef __cplusplus

@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "cmrosutils/srv/detail/cm_remote_control__struct.h"
-#include "cmrosutils/srv/detail/cm_remote_control__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "cmrosutils/srv/detail/cm_remote_control__functions.h"
+#include "cmrosutils/srv/detail/cm_remote_control__struct.h"
 #include "cmrosutils/srv/detail/cm_remote_control__type_support.h"
 
 #ifdef __cplusplus

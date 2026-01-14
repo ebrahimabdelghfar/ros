@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cd56a3492e794a075734.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "vehiclecontrol_msgs__py",
+					"jsonFile" : "directory-vehiclecontrol_msgs__py-34846762ed31ac2295d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/vehiclecontrol_msgs/vehiclecontrol_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vehiclecontrol_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vehiclecontrol_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vehiclecontrol_msgs_egg-beda0eb60f497175bc78.json",
+					"name" : "ament_cmake_python_build_vehiclecontrol_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_vehiclecontrol_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_vehiclecontrol_msgs-89a7d42a1a96d07d4d1d.json",
+					"name" : "ament_cmake_python_copy_vehiclecontrol_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b328f0d7e0d5315a2feb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs-ae28407df6947df81553.json",
+					"name" : "vehiclecontrol_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs__cpp-b9aab077b1d723278f3f.json",
+					"name" : "vehiclecontrol_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vehiclecontrol_msgs__py::@182daebad52d4cb08ef7",
+					"jsonFile" : "target-vehiclecontrol_msgs__py-40921f281853f872f134.json",
+					"name" : "vehiclecontrol_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs__rosidl_generator_c-16d3947eb25006afe81c.json",
+					"name" : "vehiclecontrol_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs__rosidl_generator_py-6e254a2b4b75aa0596d2.json",
+					"name" : "vehiclecontrol_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs__rosidl_generator_type_description-7e495ba1c727c91a4403.json",
+					"name" : "vehiclecontrol_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs__rosidl_typesupport_c-f90d8a9ea31dc716b740.json",
+					"name" : "vehiclecontrol_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs__rosidl_typesupport_cpp-50b03e271bb710e18f9d.json",
+					"name" : "vehiclecontrol_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs__rosidl_typesupport_fastrtps_c-ec7b9837a1adeb3fe0d2.json",
+					"name" : "vehiclecontrol_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs__rosidl_typesupport_fastrtps_cpp-161c90ec2682cda319eb.json",
+					"name" : "vehiclecontrol_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs__rosidl_typesupport_introspection_c-f095536d611a8ef42fbf.json",
+					"name" : "vehiclecontrol_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs__rosidl_typesupport_introspection_cpp-d25ae2f1d2738b90fd03.json",
+					"name" : "vehiclecontrol_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs_s__rosidl_typesupport_c-d0e92d96b7e406853c1c.json",
+					"name" : "vehiclecontrol_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs_s__rosidl_typesupport_fastrtps_c-66c87b235c4484df6764.json",
+					"name" : "vehiclecontrol_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs_s__rosidl_typesupport_introspection_c-3cd8fa1681991fd23a31.json",
+					"name" : "vehiclecontrol_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vehiclecontrol_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vehiclecontrol_msgs_uninstall-1a8e15240e7b6cdee335.json",
+					"name" : "vehiclecontrol_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/build/vehiclecontrol_msgs",
+		"source" : "/home/ebrahim/formula-carmaker-fs_2025/FCM_Projects/FS_autonomous/ros/ros2_ws/src/vehiclecontrol_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

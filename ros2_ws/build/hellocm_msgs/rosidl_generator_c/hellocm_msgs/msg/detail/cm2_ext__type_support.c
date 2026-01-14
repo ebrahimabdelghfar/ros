@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "hellocm_msgs/msg/detail/cm2_ext__struct.h"
+#include "hellocm_msgs/msg/detail/cm2_ext__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "hellocm_msgs/msg/detail/cm2_ext__functions.h"
-#include "hellocm_msgs/msg/detail/cm2_ext__type_support.h"
+#include "hellocm_msgs/msg/detail/cm2_ext__struct.h"
 
 #ifdef __cplusplus
 extern "C"

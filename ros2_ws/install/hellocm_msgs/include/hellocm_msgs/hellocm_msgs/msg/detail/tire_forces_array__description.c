@@ -23,9 +23,9 @@ hellocm_msgs__msg__TireForcesArray__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
-#include "hellocm_msgs/msg/detail/tire_forces__functions.h"
-#include "std_msgs/msg/detail/header__functions.h"
 #include "builtin_interfaces/msg/detail/time__functions.h"
+#include "std_msgs/msg/detail/header__functions.h"
+#include "hellocm_msgs/msg/detail/tire_forces__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG

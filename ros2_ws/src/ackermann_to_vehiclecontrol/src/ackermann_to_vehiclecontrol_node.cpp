@@ -19,12 +19,14 @@ public:
         this->declare_parameter<std::string>("output_topic", "/vehicle_control");
         this->declare_parameter<double>("max_speed", 20.0);  // m/s for normalizing gas/brake
         this->declare_parameter<double>("max_steering_angle", 30.0);  // rad
+        this->declare_parameter<double>("tire_to_pinion_ratio", 17.0);  // ratio
 
         // Get parameters
         std::string input_topic = this->get_parameter("input_topic").as_string();
         std::string output_topic = this->get_parameter("output_topic").as_string();
         max_speed_ = this->get_parameter("max_speed").as_double();
         max_steering_angle_ = this->get_parameter("max_steering_angle").as_double();
+        tire_to_pinion_ratio_ = this->get_parameter("tire_to_pinion_ratio").as_double();
 
         // Create subscriber
         ackermann_sub_ = this->create_subscription<ackermann_msgs::msg::AckermannDriveStamped>(
@@ -66,15 +68,16 @@ private:
             vehicle_control_msg.brake = std::min(std::abs(speed) / max_speed_, 1.0);
         }
 
-        // Convert steering angle
-        // Clamp steering angle to max range
-        double steering_angle = std::max(-max_steering_angle_, 
-                                         std::min(max_steering_angle_, 
-                                                  static_cast<double>(msg->drive.steering_angle)));
-        vehicle_control_msg.steer_ang = steering_angle;
+        // Convert tire steering angle to pinion angle
+        // Clamp tire steering angle to max range, then multiply by ratio to get pinion angle
+        double tire_steering_angle = std::max(-max_steering_angle_, 
+                                              std::min(max_steering_angle_, 
+                                                       static_cast<double>(msg->drive.steering_angle)));
+        double pinion_angle = tire_steering_angle * tire_to_pinion_ratio_;
+        vehicle_control_msg.steer_ang = pinion_angle;
 
-        // Set steering angle velocity if available
-        vehicle_control_msg.steer_ang_vel = msg->drive.steering_angle_velocity;
+        // Scale steering angle velocity by the same ratio
+        vehicle_control_msg.steer_ang_vel = msg->drive.steering_angle_velocity * tire_to_pinion_ratio_;
 
         // Set steering angle acceleration (not directly available in Ackermann, set to 0)
         vehicle_control_msg.steer_ang_acc = 0.0;
@@ -87,6 +90,7 @@ private:
     rclcpp::Publisher<vehiclecontrol_msgs::msg::VehicleControl>::SharedPtr vehicle_control_pub_;
     double max_speed_;
     double max_steering_angle_;
+    double tire_to_pinion_ratio_;
 };
 
 int main(int argc, char **argv)

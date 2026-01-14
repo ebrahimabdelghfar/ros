@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "hellocm_msgs/msg/detail/tire_steering__struct.h"
-#include "hellocm_msgs/msg/detail/tire_steering__functions.h"
 #include "hellocm_msgs/msg/detail/tire_steering__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "hellocm_msgs/msg/detail/tire_steering__functions.h"
 
 #ifdef __cplusplus
 extern "C"

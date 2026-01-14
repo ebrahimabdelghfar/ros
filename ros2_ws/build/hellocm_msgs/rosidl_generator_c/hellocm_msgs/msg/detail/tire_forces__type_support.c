@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "hellocm_msgs/msg/detail/tire_forces__functions.h"
 #include "hellocm_msgs/msg/detail/tire_forces__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "hellocm_msgs/msg/detail/tire_forces__type_support.h"
+#include "hellocm_msgs/msg/detail/tire_forces__functions.h"
 
 #ifdef __cplusplus
 extern "C"

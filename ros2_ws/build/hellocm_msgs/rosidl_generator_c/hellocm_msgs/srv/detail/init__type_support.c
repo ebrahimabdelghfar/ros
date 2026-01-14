@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "hellocm_msgs/srv/detail/init__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "hellocm_msgs/srv/detail/init__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "hellocm_msgs/srv/detail/init__type_support.h"
 
 #ifdef __cplusplus
